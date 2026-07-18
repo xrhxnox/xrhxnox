@@ -70,5 +70,15 @@ const entries = [
     resena: "Esta mmm ¿bolsa? es demasiado util. Está hecha de un material rígido que protege muy bien todo lo que llevo dentro. La mayor parte del tiempo la uso sin la correa.\nNo es de gran capacidad, pero sin problema caben mis cosas del diario: celular, lentes, cartera, llaves e incluso un Beyblade. Por el material, más de una vez me han preguntado si traigo una Switch o un dron lol, pero no le saben a la moda.",
     puntuacion: 4.5,
     fecha: "2024-11-28"
+  },
+  {
+    id: 7,
+    titulo: "Star Fox",
+    categoria: "videojuego",
+    imagen: "assets/img/star-fox-7.png",
+    plataformas: ["switch2"],
+    resena: "Definitivamente es un juegazo. Y para los que dicen que es muy corto tengo algo que decirles: tienen razón lol. La campaña dura unas 2 horas, pero es un juego arcade y el chiste está en la rejugabilidad. Mejorar tu puntuación, conseguir todas las medallas, descubrir las rutas alternas, completar todos los desafíos y repetir todo en modo Experto alarga muchísimo la vida del juego. PD: Do a barrel roll!",
+    puntuacion: 4,
+    fecha: "2026-07-04"
   }
 ];
