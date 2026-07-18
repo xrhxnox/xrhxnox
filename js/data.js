@@ -19,7 +19,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/pokemon-champions-1.jpg",
     plataformas: ["switch","switch2","movil"],
-    resena: "La mejor forma de entrar al competitivo (sin contar Showdown lol). El gameplay es buenísimo porque al final sigue siendo el sistema de combate clásico de Pokémon, que para mí está casi perfecto. Eso sí, en lo técnico y gráfico queda debiendo bastante. Si siguen actualizando el meta, creo que me mantendrá entretenido. Intentaré llegar a Master cada season. PD: Blastoise siempre en mi equipo.",
+    resena: "La mejor forma de entrar al competitivo (sin contar Showdown lol). El gameplay es buenísimo porque al final sigue siendo el sistema de combate clásico de Pokémon, que para mí está casi perfecto. Eso sí, en lo técnico y gráfico queda debiendo bastante; ni siquiera tiene una versión nativa para Switch 2. Si siguen actualizando el meta, creo que me mantendrá entretenido. Intentaré llegar a Master cada season. PD: Blastoise siempre en mi equipo.",
     puntuacion: 3,
     fecha: "2026-04-08"
   },
@@ -99,5 +99,15 @@ const entries = [
     resena: "El título ya da una pista. No sé cómo hacer una reseña sin hablar del plot twist, porque ocurre muy temprano y prácticamente toda la película gira alrededor de él. Solo diré que las apariencias engañan, que la moral no siempre es blanco o negro y que vale la pena verla sin saber absolutamente nada. Saquen sus propias conclusiones.",
     puntuacion: 4,
     fecha: "2026-07-16"
+  },
+  {
+    id: 10,
+    titulo: "Pikmin 4",
+    categoria: "videojuego",
+    imagen: "assets/img/pikmin-4-10.jpg",
+    plataformas: ["switch"],
+    resena: "Siempre quise probar un Pikmin, pero me daba flojera empezar. Al final Pikmin 4 me sorprendió. Le metí 40 horas para sacar el 100% (modo normal) y nunca se me hizo aburrido; a lo mucho, un poco lento por momentos. La exploración de las áreas, las cuevas, las misiones de noche, las batallas Dandori y el postgame hacen que haya mucho por hacer. Me pareció un gran juego para pasar el rato. PD: Estan rotisimos los Pikmin de hielo.",
+    puntuacion: 4,
+    fecha: "2026-07-13"
   }
 ];
