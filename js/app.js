@@ -128,6 +128,22 @@ render();
 
 document.getElementById("copyrightYear").textContent = new Date().getFullYear();
 
+function renderProfileStats() {
+  const statsEl = document.getElementById("profileStats");
+  if (!statsEl || !entries.length) return;
+
+  const count = entries.length;
+  const avg = entries.reduce((sum, e) => sum + e.puntuacion, 0) / count;
+  const years = entries.map(e => e.fecha ? Number(e.fecha.slice(0, 4)) : null).filter(Boolean);
+
+  const parts = [`${count} ${count === 1 ? "reseña" : "reseñas"}`, `${avg.toFixed(1)}★ promedio`];
+  if (years.length) parts.push(`desde ${Math.min(...years)}`);
+
+  statsEl.textContent = parts.join(" · ");
+  statsEl.hidden = false;
+}
+renderProfileStats();
+
 const themeToggle = document.getElementById("themeToggle");
 const THEME_KEY = "ricstars_theme";
 
