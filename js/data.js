@@ -123,7 +123,7 @@ const entries = [
   {
     id: 12,
     titulo: "PowerA Wireless Controller for Nintendo Switch - Pikachu Ecstatic",
-    categoria: "anime",
+    categoria: "compras",
     imagen: "assets/img/powera-wireless-controller-for-nintendo-switch-pikachu-ecstatic-12.jpg",
     resena: "Lo compré de emergencia porque tenía un torneo de VGC y a todos mis demás controles de Switch les dio drift (Joy-Cons y genéricos). Llevo casi 3 meses usándolo y, hasta ahora, cero problemas. Es ergonómico, ligero y además tiene un diseño GOD. Mi único pero es que usa baterías; cuando lo compré pensé que era recargable. Por los $764 que me costó, espero que dure buen rato.",
     puntuacion: 3,
