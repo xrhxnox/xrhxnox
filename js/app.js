@@ -86,7 +86,7 @@ function render() {
   const filtered = entries.filter(e => {
     const matchCat = activeFilter === "todos" || e.categoria === activeFilter;
     const matchYear = activeYear === "todos" || (e.fecha && e.fecha.slice(0, 4) === activeYear);
-    const matchSearch = !activeSearch || e.titulo.toLowerCase().includes(activeSearch);
+    const matchSearch = !activeSearch || foldAccents(e.titulo.toLowerCase()).includes(activeSearch);
     return matchCat && matchYear && matchSearch;
   });
 
@@ -118,7 +118,7 @@ yearSelect.addEventListener("change", () => {
 });
 
 searchInput.addEventListener("input", () => {
-  activeSearch = searchInput.value.trim().toLowerCase();
+  activeSearch = foldAccents(searchInput.value.trim().toLowerCase());
   currentPage = 1;
   render();
 });

@@ -132,6 +132,16 @@ Object.values(PLATFORM_GROUPS).forEach(group => {
   });
 });
 
+function foldAccents(text) {
+  const accented = "áéíóúüñÁÉÍÓÚÜÑ";
+  const plain = "aeiouunAEIOUUN";
+  let result = text;
+  for (let i = 0; i < accented.length; i++) {
+    result = result.split(accented[i]).join(plain[i].toLowerCase());
+  }
+  return result;
+}
+
 function starsMarkup(rating) {
   const full = Math.floor(rating);
   const half = rating % 1 >= 0.5;
