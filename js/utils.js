@@ -2,11 +2,11 @@ const CATEGORY_LABELS = {
   anime: "Anime",
   app: "App",
   comida: "Comida",
+  compras: "Compras",
   deportes: "Deportes",
   libro: "Libro",
   musica: "Música",
   pelicula: "Película",
-  random: "Random",
   "real-madrid": "Real Madrid",
   serie: "Serie",
   "trash-tv": "Trash TV",
@@ -17,15 +17,30 @@ const CATEGORY_ICONS = {
   anime: "fa-solid fa-dragon",
   app: "fa-solid fa-mobile-screen-button",
   comida: "fa-solid fa-utensils",
+  compras: "fa-solid fa-bag-shopping",
   deportes: "fa-solid fa-trophy",
   libro: "fa-solid fa-book",
   musica: "fa-solid fa-music",
   pelicula: "fa-solid fa-clapperboard",
-  random: "fa-solid fa-shuffle",
   "real-madrid": "fa-solid fa-shield-halved",
   serie: "fa-solid fa-tv",
   "trash-tv": "fa-solid fa-trash",
   videojuego: "fa-solid fa-gamepad"
+};
+
+const DATE_LABEL_BY_CATEGORY = {
+  videojuego: "Jugado el",
+  serie: "Visto el",
+  pelicula: "Visto el",
+  anime: "Visto el",
+  "trash-tv": "Visto el",
+  deportes: "Partido del",
+  "real-madrid": "Partido del",
+  musica: "Escuchado el",
+  app: "Usado el",
+  comida: "Probado el",
+  compras: "Adquirido el",
+  libro: "Leído el"
 };
 
 const PLATFORM_GROUPS = {

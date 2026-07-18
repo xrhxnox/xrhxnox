@@ -20,7 +20,7 @@
   --cat-comida: #ffe66c;
   --cat-real-madrid: #d4af37;
   --cat-deportes: #22c55e;
-  --cat-random: #9aa1ac;
+  --cat-compras: #9aa1ac;
 
   --photo-border: #3a3a38;
   --overlay-text: #eeeeec;
@@ -328,7 +328,7 @@ main {
 .badge.comida { color: var(--cat-comida); }
 .badge.real-madrid { color: var(--cat-real-madrid); }
 .badge.deportes { color: var(--cat-deportes); }
-.badge.random { color: var(--cat-random); }
+.badge.compras { color: var(--cat-compras); }
 
 .platform-tags {
   position: absolute;
