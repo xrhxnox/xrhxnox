@@ -14,7 +14,10 @@ let currentPage = 1;
 
 function metaTagsMarkup(entry) {
   if (entry.categoria === "videojuego" && entry.plataformas && entry.plataformas.length) {
-    const tags = entry.plataformas.map(key => {
+    const sortedPlatforms = [...entry.plataformas].sort(
+      (a, b) => PLATFORM_ORDER.indexOf(a) - PLATFORM_ORDER.indexOf(b)
+    );
+    const tags = sortedPlatforms.map(key => {
       const label = PLATFORM_LABELS[key] || key;
       const color = PLATFORM_COLORS[key] || "#9aa1ac";
       const text = PLATFORM_TEXT_COLORS[key] || "#ffffff";

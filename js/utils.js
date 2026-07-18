@@ -121,6 +121,13 @@ const MUSIC_TYPE_LABELS = {
   cancion: "Canción"
 };
 
+// Orden cronológico aproximado de lanzamiento, de más antigua a más nueva
+const PLATFORM_ORDER = [
+  "pc", "nes", "gameboy", "snes", "ps1", "n64", "ps2", "gba", "gamecube",
+  "xbox", "nds", "psp", "xbox360", "ps3", "wii", "movil", "n3ds", "psvita",
+  "wiiu", "ps4", "xboxone", "switch", "xboxseries", "ps5", "switch2"
+];
+
 const PLATFORM_LABELS = {};
 const PLATFORM_COLORS = {};
 const PLATFORM_TEXT_COLORS = {};
