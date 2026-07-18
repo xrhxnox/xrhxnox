@@ -101,6 +101,11 @@ const GENRE_OPTIONS = {
   deportes: ["Fútbol", "Básquetbol", "Béisbol", "Tenis", "Fórmula 1", "Boxeo", "MMA", "Vóleibol", "Golf", "Ciclismo", "Natación", "Atletismo", "Rugby", "Hockey", "Esports"]
 };
 
+const MUSIC_TYPE_LABELS = {
+  album: "Álbum",
+  cancion: "Canción"
+};
+
 const PLATFORM_LABELS = {};
 const PLATFORM_COLORS = {};
 const PLATFORM_TEXT_COLORS = {};

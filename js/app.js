@@ -22,12 +22,15 @@ function metaTagsMarkup(entry) {
     }).join("");
     return `<div class="platform-tags">${tags}</div>`;
   }
-  if (entry.generos && entry.generos.length) {
+  if ((entry.generos && entry.generos.length) || entry.tipo) {
     const color = `var(--cat-${entry.categoria})`;
-    const tags = entry.generos.map(g =>
+    const tipoTag = entry.tipo
+      ? `<span class="platform-tag" style="--platform-color:${color};--platform-text:#1f1f1e">${MUSIC_TYPE_LABELS[entry.tipo] || entry.tipo}</span>`
+      : "";
+    const genreTags = (entry.generos || []).map(g =>
       `<span class="platform-tag" style="--platform-color:${color};--platform-text:#1f1f1e">${g}</span>`
     ).join("");
-    return `<div class="platform-tags">${tags}</div>`;
+    return `<div class="platform-tags">${tipoTag}${genreTags}</div>`;
   }
   return "";
 }
@@ -130,7 +133,7 @@ const THEME_KEY = "ricstars_theme";
 
 function updateThemeIcon() {
   const theme = document.documentElement.getAttribute("data-theme");
-  themeToggle.innerHTML = theme === "light" ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
+  themeToggle.innerHTML = theme === "light" ? '<i class="fa-solid fa-bolt"></i>' : '<i class="fa-solid fa-moon"></i>';
 }
 updateThemeIcon();
 
