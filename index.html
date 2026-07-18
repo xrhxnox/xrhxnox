@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RicStars — Mi diario de videojuegos, películas, series y libros</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <header class="profile-header">
+    <img src="assets/img/profile.png" alt="Rick" class="profile-photo">
+    <h1 class="profile-name">Rick</h1>
+    <p class="profile-handle">@xrhxnox</p>
+    <p class="profile-bio">Haciendo pequeños reviews de todo</p>
+    <a class="x-follow-btn" href="https://x.com/xrhxnox" target="_blank" rel="noopener" aria-label="Sígueme en X: @xrhxnox">
+      <i class="fa-brands fa-twitter"></i>
+    </a>
+  </header>
+
+  <hr class="section-divider">
+
+  <main>
+    <div class="search-bar">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <input type="text" id="searchInput" placeholder="Buscar...">
+    </div>
+
+    <div class="controls">
+      <div class="filters" id="filters">
+        <button class="filter-btn active" data-filter="todos">Todos</button>
+        <button class="filter-btn" data-filter="videojuego"><i class="fa-solid fa-gamepad"></i> Videojuegos</button>
+        <button class="filter-btn" data-filter="app"><i class="fa-solid fa-mobile-screen-button"></i> Apps</button>
+        <button class="filter-btn" data-filter="libro"><i class="fa-solid fa-book"></i> Libros</button>
+        <button class="filter-btn" data-filter="pelicula"><i class="fa-solid fa-clapperboard"></i> Películas</button>
+        <button class="filter-btn" data-filter="serie"><i class="fa-solid fa-tv"></i> Series</button>
+        <button class="filter-btn" data-filter="trash-tv"><i class="fa-solid fa-trash"></i> Trash TV</button>
+        <button class="filter-btn" data-filter="anime"><i class="fa-solid fa-dragon"></i> Anime</button>
+        <button class="filter-btn" data-filter="musica"><i class="fa-solid fa-music"></i> Música</button>
+        <button class="filter-btn" data-filter="comida"><i class="fa-solid fa-utensils"></i> Comida</button>
+        <button class="filter-btn" data-filter="otro"><i class="fa-solid fa-ellipsis"></i> Otros</button>
+      </div>
+
+      <div class="year-select">
+        <label for="year">Año</label>
+        <select id="year"></select>
+      </div>
+    </div>
+
+    <p class="empty-state" id="emptyState" hidden>Aún no hay nada aqui lol</p>
+
+    <section class="grid" id="grid"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="copyrightYear"></span><br>Designed by @xrhxnox</p>
+  </footer>
+
+  <script src="js/utils.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
