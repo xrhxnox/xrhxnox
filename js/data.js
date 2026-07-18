@@ -89,5 +89,15 @@ const entries = [
     resena: "Sí, es un Beyblade. Después de ver demasiados videos me convencí de comprar uno. Obviamente no soy muy fan de los colores y unque tengo entendido que no es de los mejores Beyblade que hay, elegí este simplemente porque el rinoceronte es mi animal favorito. Siempre lo taigo conmigo aunque no tengo a nadie con quién jugar lol. PD: Go Shoot! (Let it Rip!)",
     puntuacion: 4,
     fecha: "2026-03-19"
+  },
+  {
+    id: 9,
+    titulo: "The Drama",
+    categoria: "pelicula",
+    imagen: "assets/img/the-drama-9.jpg",
+    generos: ["Drama"],
+    resena: "El título ya da una pista. No sé cómo hacer una reseña sin hablar del plot twist, porque ocurre muy temprano y prácticamente toda la película gira alrededor de él. Solo diré que las apariencias engañan, que la moral no siempre es blanco o negro y que vale la pena verla sin saber absolutamente nada. Saquen sus propias conclusiones.",
+    puntuacion: 4,
+    fecha: "2026-07-16"
   }
 ];
