@@ -18,6 +18,8 @@
   --cat-anime: #c792ea;
   --cat-musica: #ff5c5c;
   --cat-comida: #ffe66c;
+  --cat-real-madrid: #d4af37;
+  --cat-deportes: #22c55e;
   --cat-random: #9aa1ac;
 
   --photo-border: #3a3a38;
@@ -324,6 +326,8 @@ main {
 .badge.anime { color: var(--cat-anime); }
 .badge.musica { color: var(--cat-musica); }
 .badge.comida { color: var(--cat-comida); }
+.badge.real-madrid { color: var(--cat-real-madrid); }
+.badge.deportes { color: var(--cat-deportes); }
 .badge.random { color: var(--cat-random); }
 
 .platform-tags {
@@ -345,6 +349,8 @@ main {
   padding: 2px 8px;
   border-radius: 999px;
   white-space: nowrap;
+  min-width: 64px;
+  text-align: center;
 }
 
 .card .title-bar {

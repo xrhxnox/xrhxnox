@@ -8,6 +8,8 @@ const CATEGORY_LABELS = {
   anime: "Anime",
   musica: "Música",
   comida: "Comida",
+  "real-madrid": "Real Madrid",
+  deportes: "Deportes",
   random: "Random"
 };
 
@@ -21,6 +23,8 @@ const CATEGORY_ICONS = {
   anime: "fa-solid fa-dragon",
   musica: "fa-solid fa-music",
   comida: "fa-solid fa-utensils",
+  "real-madrid": "fa-solid fa-shield-halved",
+  deportes: "fa-solid fa-trophy",
   random: "fa-solid fa-shuffle"
 };
 
@@ -92,7 +96,9 @@ const GENRE_OPTIONS = {
   pelicula: ["Acción", "Aventura", "Comedia", "Drama", "Terror", "Ciencia ficción", "Fantasía", "Romance", "Suspenso", "Animación", "Documental", "Crimen", "Bélica", "Musical"],
   serie: ["Acción", "Aventura", "Comedia", "Drama", "Terror", "Ciencia ficción", "Fantasía", "Romance", "Suspenso", "Documental", "Crimen", "Sitcom"],
   anime: ["Shonen", "Shojo", "Seinen", "Josei", "Isekai", "Mecha", "Slice of Life", "Deporte", "Romance", "Comedia", "Terror", "Psicológico", "Fantasía", "Acción", "Drama", "Sobrenatural"],
-  musica: ["Pop", "Rock", "Hip-Hop", "R&B", "Reggaetón", "Electrónica", "Jazz", "Clásica", "Indie", "Metal", "Punk", "Folk", "Country", "K-Pop", "Latina", "Soul"]
+  musica: ["Pop", "Rock", "Hip-Hop", "R&B", "Reggaetón", "Electrónica", "Jazz", "Clásica", "Indie", "Metal", "Punk", "Folk", "Country", "K-Pop", "Latina", "Soul"],
+  "real-madrid": ["Liga", "Copa del Rey", "Champions League"],
+  deportes: ["Fútbol", "Básquetbol", "Béisbol", "Tenis", "Fórmula 1", "Boxeo", "MMA", "Vóleibol", "Golf", "Ciclismo", "Natación", "Atletismo", "Rugby", "Hockey", "Esports"]
 };
 
 const PLATFORM_LABELS = {};

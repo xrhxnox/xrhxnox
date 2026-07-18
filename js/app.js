@@ -130,7 +130,7 @@ const THEME_KEY = "ricstars_theme";
 
 function updateThemeIcon() {
   const theme = document.documentElement.getAttribute("data-theme");
-  themeToggle.innerHTML = theme === "light" ? '<i class="fa-solid fa-moon"></i>' : '<i class="fa-solid fa-sun"></i>';
+  themeToggle.innerHTML = theme === "light" ? '<i class="fa-solid fa-sun"></i>' : '<i class="fa-solid fa-moon"></i>';
 }
 updateThemeIcon();
 
