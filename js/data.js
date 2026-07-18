@@ -22,5 +22,15 @@ const entries = [
     resena: "La mejor forma de entrar al competitivo (sin contar Showdown lol). El gameplay es buenísimo porque al final sigue siendo el sistema de combate clásico de Pokémon, que para mí está casi perfecto. Eso sí, en lo técnico y gráfico queda debiendo bastante. Si siguen actualizando el meta, creo que me mantendrá entretenido. Intentaré llegar a Master cada season... o hasta que me aburra. PD. Blastoise siempre en mi equipo.",
     puntuacion: 3.5,
     fecha: "2026-04-08"
+  },
+  {
+    id: 2,
+    titulo: "Pokémon TCG Pocket",
+    categoria: "videojuego",
+    imagen: "assets/img/pokemon-tcg-pocket-2.jpg",
+    plataformas: ["movil"],
+    resena: "Lo sabía, terminé volviéndome adicto a las cartitas. Nunca quise coleccionar cartas físicas de Pokémon porque sabía que iba a entrar en un círculo vicioso; por suerte existe esto. Tengo el Pase Prémium y abrir 4 sobres al día prácticamente es obligatorio si quieres completar las expansiones. El combate es básico, pero entretenido. Llegué a Master una vez y con eso tuve, prefiero coleccionar. PD. Intercambiemos cartas de Pikachu.",
+    puntuacion: 5,
+    fecha: "2024-10-30"
   }
 ];
