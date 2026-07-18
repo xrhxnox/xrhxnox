@@ -75,7 +75,7 @@ const entries = [
     id: 7,
     titulo: "Star Fox",
     categoria: "videojuego",
-    imagen: "assets/img/star-fox-7.png",
+    imagen: "assets/img/star-fox-7.jpg",
     plataformas: ["switch2"],
     resena: "Definitivamente es un juegazo. Y para los que dicen que es muy corto tengo algo que decirles: tienen razón lol. La campaña dura unas 2 horas, pero es un juego arcade y el chiste está en la rejugabilidad. Mejorar tu puntuación, conseguir todas las medallas, descubrir las rutas alternas, completar todos los desafíos y repetir todo en modo Experto alarga muchísimo la vida del juego. PD: Do a barrel roll!",
     puntuacion: 4,
