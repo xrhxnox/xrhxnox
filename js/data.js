@@ -130,15 +130,6 @@ const entries = [
     fecha: "2026-04-15"
   },
   {
-    id: 13,
-    titulo: "GoPro Hero 13 Black",
-    categoria: "compras",
-    imagen: "assets/img/gopro-hero-13-black-13.jpg",
-    resena: "La compré principalmente para grabar mis partidos de padel y algunos viajes, y la verdad ha cumplido de sobra. La calidad de imagen es muy buena y el tamaño hace que puedas llevarla a cualquier lado sin estorbar. Eso sí, la batería podría durar más si grabas en resoluciones altas y algunos accesorios oficiales están carísimos. Fuera de eso, me ha gustado mucho y siento que todavía no le saco todo el provecho. Necesito más pretextos para usarla.",
-    puntuacion: 4.5,
-    fecha: "2025-03-13"
-  },
-  {
     id: 14,
     titulo: "GoPro Hero 13 Black",
     categoria: "compras",
