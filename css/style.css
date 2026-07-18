@@ -483,6 +483,11 @@ main {
   margin: 0;
 }
 
+.entries-search-bar {
+  max-width: none;
+  margin: 0 0 12px;
+}
+
 .text-btn {
   background: none;
   border: none;
