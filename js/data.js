@@ -119,5 +119,14 @@ const entries = [
     resena: "Nada que no se sepa, es un clásico. Aún conservo mi cartucho de Game Boy Advance, pero no dudé ni un segundo en descargar el port para Switch. Eso sí, esta versión no agrega absolutamente nada nuevo; de hecho, siento que hasta empeora en algunas cosas lol. Aun así, siempre es un gusto volver a Kanto con los primeros 151. PD: Los que no le saben eligen a Charmander, los que le saben a Bulbasaur y los que le sabemos demasiado a Squirtle.",
     puntuacion: 4,
     fecha: "2026-02-27"
+  },
+  {
+    id: 12,
+    titulo: "PowerA Wireless Controller for Nintendo Switch - Pikachu Ecstatic",
+    categoria: "anime",
+    imagen: "assets/img/powera-wireless-controller-for-nintendo-switch-pikachu-ecstatic-12.jpg",
+    resena: "Lo compré de emergencia porque tenía un torneo de VGC y a todos mis demás controles de Switch les dio drift (Joy-Cons y genéricos). Llevo casi 3 meses usándolo y, hasta ahora, cero problemas. Es ergonómico, ligero y además tiene un diseño GOD. Mi único pero es que usa baterías; cuando lo compré pensé que era recargable. Por los $764 que me costó, espero que dure buen rato.",
+    puntuacion: 3,
+    fecha: "2026-04-15"
   }
 ];
