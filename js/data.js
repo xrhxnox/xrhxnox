@@ -57,7 +57,7 @@ const entries = [
     id: 5,
     titulo: "Adidas adiFOM Climacool",
     categoria: "compras",
-    imagen: "assets/img/adidas-adifom-climacool-5.png",
+    imagen: "assets/img/adidas-adifom-climacool-5.jpg",
     resena: "Estas bellezas abstractas se convirtieron en mis tenis de diario. No se dejen engañar por el diseño, porque son de los tenis más cómodos que he usado. El único detalle es que, por el material y al ser blancos, se ensucian demasiado rapido, aunque la verdad también son fáciles de limpiar. En serio necesito otro par, aunque no se si todavía los venden lol.",
     puntuacion: 5,
     fecha: "2024-11-28"
