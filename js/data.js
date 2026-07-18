@@ -87,7 +87,7 @@ const entries = [
     categoria: "compras",
     imagen: "assets/img/reaper-rhino-c-4-55d-cx-8.jpg",
     resena: "Sí, es un Beyblade. Después de ver demasiados videos me convencí de comprar uno. Obviamente no soy muy fan de los colores y unque tengo entendido que no es de los mejores Beyblade que hay, elegí este simplemente porque el rinoceronte es mi animal favorito. Siempre lo taigo conmigo aunque no tengo a nadie con quién jugar lol. PD: Go Shoot! (Let it Rip!)",
-    puntuacion: 4,
+    puntuacion: 3.5,
     fecha: "2026-03-19"
   },
   {
