@@ -124,6 +124,13 @@ html, body {
   transition: background 0.15s ease;
 }
 
+.theme-toggle-fixed {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
 .icon-btn:hover {
   background: var(--surface-hover);
 }
