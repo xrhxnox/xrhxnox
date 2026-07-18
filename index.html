@@ -5,6 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rick | Reviews & Ratings</title>
 
+  <script>
+    (function() {
+      var saved = localStorage.getItem("ricstars_theme");
+      var theme = saved || (window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark");
+      document.documentElement.setAttribute("data-theme", theme);
+    })();
+  </script>
+
   <link rel="icon" href="assets/img/web/favicon.png">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -16,9 +24,12 @@
     <h1 class="profile-name">яicᴋ</h1>
     <p class="profile-handle">@xrhxnox</p>
     <p class="profile-bio">Haciendo pequeños reviews de todo</p>
-    <a class="x-follow-btn" href="https://x.com/xrhxnox" target="_blank" rel="noopener" aria-label="Sígueme en X: @xrhxnox">
-      <i class="fa-brands fa-twitter"></i>
-    </a>
+    <div class="header-actions">
+      <a class="icon-btn" href="https://x.com/xrhxnox" target="_blank" rel="noopener" aria-label="Sígueme en X: @xrhxnox">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <button type="button" id="themeToggle" class="icon-btn" aria-label="Cambiar tema claro/oscuro"></button>
+    </div>
   </header>
 
   <hr class="section-divider">
@@ -41,7 +52,7 @@
         <button class="filter-btn" data-filter="anime"><i class="fa-solid fa-dragon"></i> Anime</button>
         <button class="filter-btn" data-filter="musica"><i class="fa-solid fa-music"></i> Música</button>
         <button class="filter-btn" data-filter="comida"><i class="fa-solid fa-utensils"></i> Comida</button>
-        <button class="filter-btn" data-filter="otro"><i class="fa-solid fa-ellipsis"></i> Otros</button>
+        <button class="filter-btn" data-filter="random"><i class="fa-solid fa-shuffle"></i> Random</button>
       </div>
 
       <div class="year-select">
@@ -53,6 +64,8 @@
     <p class="empty-state" id="emptyState" hidden>Aún no hay nada aqui lol</p>
 
     <section class="grid" id="grid"></section>
+
+    <div class="pagination" id="pagination"></div>
   </main>
 
   <footer class="site-footer">

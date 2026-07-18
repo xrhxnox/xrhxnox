@@ -3,10 +3,14 @@ const emptyState = document.getElementById("emptyState");
 const filterButtons = document.querySelectorAll(".filter-btn");
 const yearSelect = document.getElementById("year");
 const searchInput = document.getElementById("searchInput");
+const pagination = document.getElementById("pagination");
+
+const PAGE_SIZE = 9;
 
 let activeFilter = "todos";
 let activeYear = "todos";
 let activeSearch = "";
+let currentPage = 1;
 
 function metaTagsMarkup(entry) {
   if (entry.categoria === "videojuego" && entry.plataformas && entry.plataformas.length) {
@@ -55,6 +59,26 @@ function populateYears() {
   yearSelect.innerHTML = `<option value="todos">Todos</option>` + years.map(y => `<option value="${y}">${y}</option>`).join("");
 }
 
+function renderPagination(totalPages) {
+  if (totalPages <= 1) {
+    pagination.innerHTML = "";
+    return;
+  }
+  pagination.innerHTML = `
+    <button type="button" id="prevPageBtn" ${currentPage === 1 ? "disabled" : ""} aria-label="Página anterior"><i class="fa-solid fa-chevron-left"></i></button>
+    <span class="page-label">Página ${currentPage} de ${totalPages}</span>
+    <button type="button" id="nextPageBtn" ${currentPage === totalPages ? "disabled" : ""} aria-label="Página siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+  `;
+  document.getElementById("prevPageBtn").addEventListener("click", () => {
+    currentPage -= 1;
+    render();
+  });
+  document.getElementById("nextPageBtn").addEventListener("click", () => {
+    currentPage += 1;
+    render();
+  });
+}
+
 function render() {
   const filtered = entries.filter(e => {
     const matchCat = activeFilter === "todos" || e.categoria === activeFilter;
@@ -65,8 +89,13 @@ function render() {
 
   filtered.sort((a, b) => (b.fecha || "").localeCompare(a.fecha || ""));
 
-  grid.innerHTML = filtered.map(cardMarkup).join("");
+  const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+  currentPage = Math.min(currentPage, totalPages);
+  const pageItems = filtered.slice((currentPage - 1) * PAGE_SIZE, currentPage * PAGE_SIZE);
+
+  grid.innerHTML = pageItems.map(cardMarkup).join("");
   emptyState.hidden = filtered.length !== 0;
+  renderPagination(totalPages);
 }
 
 filterButtons.forEach(btn => {
@@ -74,17 +103,20 @@ filterButtons.forEach(btn => {
     filterButtons.forEach(b => b.classList.remove("active"));
     btn.classList.add("active");
     activeFilter = btn.dataset.filter;
+    currentPage = 1;
     render();
   });
 });
 
 yearSelect.addEventListener("change", () => {
   activeYear = yearSelect.value;
+  currentPage = 1;
   render();
 });
 
 searchInput.addEventListener("input", () => {
   activeSearch = searchInput.value.trim().toLowerCase();
+  currentPage = 1;
   render();
 });
 
@@ -92,3 +124,19 @@ populateYears();
 render();
 
 document.getElementById("copyrightYear").textContent = new Date().getFullYear();
+
+const themeToggle = document.getElementById("themeToggle");
+const THEME_KEY = "ricstars_theme";
+
+function updateThemeIcon() {
+  const theme = document.documentElement.getAttribute("data-theme");
+  themeToggle.innerHTML = theme === "light" ? '<i class="fa-solid fa-moon"></i>' : '<i class="fa-solid fa-sun"></i>';
+}
+updateThemeIcon();
+
+themeToggle.addEventListener("click", () => {
+  const next = document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light";
+  document.documentElement.setAttribute("data-theme", next);
+  localStorage.setItem(THEME_KEY, next);
+  updateThemeIcon();
+});

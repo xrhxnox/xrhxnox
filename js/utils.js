@@ -8,7 +8,7 @@ const CATEGORY_LABELS = {
   anime: "Anime",
   musica: "Música",
   comida: "Comida",
-  otro: "Otro"
+  random: "Random"
 };
 
 const CATEGORY_ICONS = {
@@ -21,7 +21,7 @@ const CATEGORY_ICONS = {
   anime: "fa-solid fa-dragon",
   musica: "fa-solid fa-music",
   comida: "fa-solid fa-utensils",
-  otro: "fa-solid fa-ellipsis"
+  random: "fa-solid fa-shuffle"
 };
 
 const PLATFORM_GROUPS = {
