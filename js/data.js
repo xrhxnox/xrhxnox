@@ -32,5 +32,15 @@ const entries = [
     resena: "Lo sabía, terminé volviéndome adicto a las cartitas. Nunca quise coleccionar cartas físicas de Pokémon porque sabía que iba a entrar en un círculo vicioso; por suerte existe esto. Tengo el Pase Prémium y abrir 4 sobres al día prácticamente es obligatorio si quieres completar las expansiones. El combate es básico, pero entretenido. Llegué a Master una vez y con eso tuve, prefiero coleccionar. PD. Intercambiemos cartas de Pikachu.",
     puntuacion: 5,
     fecha: "2024-10-30"
+  },
+  {
+    id: 3,
+    titulo: "League of Legends",
+    categoria: "videojuego",
+    imagen: "assets/img/league-of-legends-3.webp",
+    plataformas: ["pc"],
+    resena: "El peor juego del mundo, no lo descarguen si no quieren arruinar su vida. Duré casi 8 años jugándolo prácticamente a diario (con amigos, porque Solo Q es un infierno) y apenas el año pasado lo dejé. De vez en cuando todavía me echo una que otra partida, pero ya muy casual. Lo más alto que llegué fue Platino. Top laner de corazón. Main Gnar, Jayce, Kennen y Rumble. PD. No me me pregunten cuanto gasté en skins.",
+    puntuacion: 0.5,
+    fecha: "2026-07-18"
   }
 ];
