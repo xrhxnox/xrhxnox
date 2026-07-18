@@ -375,6 +375,7 @@ main {
   font-size: 0.85rem;
   font-weight: 600;
   background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
+  color: var(--overlay-text);
   z-index: 1;
 }
 
