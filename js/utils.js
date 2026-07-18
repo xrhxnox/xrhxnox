@@ -1,31 +1,31 @@
 const CATEGORY_LABELS = {
-  videojuego: "Videojuego",
+  anime: "Anime",
   app: "App",
+  comida: "Comida",
+  deportes: "Deportes",
   libro: "Libro",
+  musica: "Música",
   pelicula: "Película",
+  random: "Random",
+  "real-madrid": "Real Madrid",
   serie: "Serie",
   "trash-tv": "Trash TV",
-  anime: "Anime",
-  musica: "Música",
-  comida: "Comida",
-  "real-madrid": "Real Madrid",
-  deportes: "Deportes",
-  random: "Random"
+  videojuego: "Videojuego"
 };
 
 const CATEGORY_ICONS = {
-  videojuego: "fa-solid fa-gamepad",
+  anime: "fa-solid fa-dragon",
   app: "fa-solid fa-mobile-screen-button",
+  comida: "fa-solid fa-utensils",
+  deportes: "fa-solid fa-trophy",
   libro: "fa-solid fa-book",
+  musica: "fa-solid fa-music",
   pelicula: "fa-solid fa-clapperboard",
+  random: "fa-solid fa-shuffle",
+  "real-madrid": "fa-solid fa-shield-halved",
   serie: "fa-solid fa-tv",
   "trash-tv": "fa-solid fa-trash",
-  anime: "fa-solid fa-dragon",
-  musica: "fa-solid fa-music",
-  comida: "fa-solid fa-utensils",
-  "real-madrid": "fa-solid fa-shield-halved",
-  deportes: "fa-solid fa-trophy",
-  random: "fa-solid fa-shuffle"
+  videojuego: "fa-solid fa-gamepad"
 };
 
 const PLATFORM_GROUPS = {
