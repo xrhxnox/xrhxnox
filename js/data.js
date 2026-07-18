@@ -61,5 +61,14 @@ const entries = [
     resena: "Estas bellezas abstractas se convirtieron en mis tenis de diario. No se dejen engañar por el diseño, porque son de los tenis más cómodos que he usado. El único detalle es que, por el material y al ser blancos, se ensucian demasiado rapido, aunque la verdad también son fáciles de limpiar. En serio necesito otro par, aunque no se si todavía los venden lol.",
     puntuacion: 5,
     fecha: "2024-11-28"
+  },
+  {
+    id: 6,
+    titulo: "Adidas Originals SST Airliner",
+    categoria: "compras",
+    imagen: "assets/img/adidas-originals-sst-airliner-6.jpg",
+    resena: "Esta mmm ¿bolsa? es demasiado util. Está hecha de un material rígido que protege muy bien todo lo que llevo dentro. La mayor parte del tiempo la uso sin la correa.\nNo es de gran capacidad, pero sin problema caben mis cosas del diario: celular, lentes, cartera, llaves e incluso un Beyblade. Por el material, más de una vez me han preguntado si traigo una Switch o un dron lol, pero no le saben a la moda.",
+    puntuacion: 4.5,
+    fecha: "2024-11-28"
   }
 ];
