@@ -42,5 +42,15 @@ const entries = [
     resena: "El peor juego del mundo, no lo descarguen si no quieren arruinar su vida. Duré casi 8 años jugándolo prácticamente a diario (con amigos, porque Solo Q es un infierno) y apenas el año pasado lo dejé. De vez en cuando todavía me echo una que otra partida, pero ya muy casual. Lo más alto que llegué fue Platino. Top laner de corazón. Main Gnar, Jayce, Kennen y Rumble. PD. No me me pregunten cuanto gasté en skins.",
     puntuacion: 0.5,
     fecha: "2016-06-01"
+  },
+  {
+    id: 4,
+    titulo: "Animal Crossing: New Horizons",
+    categoria: "videojuego",
+    imagen: "assets/img/animal-crossing-new-horizons-4.png",
+    plataformas: ["switch","switch2"],
+    resena: "Es el mejor juego de la historia, punto. Ya en serio, esta cosa salió al inicio de la pandemia y despues de haberle metido alrededor de 1000 horas, todavía no me lo he \"terminado\". Es absurdamente adictivo. La verdad ya no juego tanto como antes, pero de vez en cuando me dan semanas de entrar diario y hacer actividades en la isla. PD: La actualización para Switch 2 añadió resolución 4K. No es un cambio enorme, pero se agradece.",
+    puntuacion: 5,
+    fecha: "2020-04-20"
   }
 ];
