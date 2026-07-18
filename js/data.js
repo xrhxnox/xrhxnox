@@ -128,5 +128,14 @@ const entries = [
     resena: "Lo compré de emergencia porque tenía un torneo de VGC y a todos mis demás controles de Switch les dio drift (Joy-Cons y genéricos). Llevo casi 3 meses usándolo y, hasta ahora, cero problemas. Es ergonómico, ligero y además tiene un diseño GOD. Mi único pero es que usa baterías; cuando lo compré pensé que era recargable. Por los $764 que me costó, espero que dure buen rato.",
     puntuacion: 3,
     fecha: "2026-04-15"
+  },
+  {
+    id: 13,
+    titulo: "GoPro Hero 13 Black",
+    categoria: "compras",
+    imagen: "assets/img/gopro-hero-13-black-13.jpg",
+    resena: "La compré principalmente para grabar mis partidos de padel y algunos viajes, y la verdad ha cumplido de sobra. La calidad de imagen es muy buena y el tamaño hace que puedas llevarla a cualquier lado sin estorbar. Eso sí, la batería podría durar más si grabas en resoluciones altas y algunos accesorios oficiales están carísimos. Fuera de eso, me ha gustado mucho y siento que todavía no le saco todo el provecho. Necesito más pretextos para usarla.",
+    puntuacion: 4.5,
+    fecha: "2025-03-13"
   }
 ];
