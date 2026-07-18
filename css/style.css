@@ -102,10 +102,10 @@ body {
 }
 
 .profile-photo {
-  width: 288px;
-  height: 288px;
-  max-width: 70vw;
-  max-height: 70vw;
+  width: 200px;
+  height: 200px;
+  max-width: 55vw;
+  max-height: 55vw;
   border-radius: 50%;
   border: 6px solid var(--photo-border);
   object-fit: cover;
