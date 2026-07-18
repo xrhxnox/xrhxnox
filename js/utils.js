@@ -112,7 +112,7 @@ const GENRE_OPTIONS = {
   serie: ["Acción", "Aventura", "Comedia", "Drama", "Terror", "Ciencia ficción", "Fantasía", "Romance", "Suspenso", "Documental", "Crimen", "Sitcom"],
   anime: ["Shonen", "Shojo", "Seinen", "Josei", "Isekai", "Mecha", "Slice of Life", "Deporte", "Romance", "Comedia", "Terror", "Psicológico", "Fantasía", "Acción", "Drama", "Sobrenatural"],
   musica: ["Pop", "Rock", "Hip-Hop", "R&B", "Reggaetón", "Electrónica", "Jazz", "Clásica", "Indie", "Metal", "Punk", "Folk", "Country", "K-Pop", "Latina", "Soul"],
-  "real-madrid": ["Liga", "Copa del Rey", "Champions League"],
+  "real-madrid": ["Liga", "Copa del Rey", "Champions League", "Fichaje"],
   deportes: ["Fútbol", "Básquetbol", "Béisbol", "Tenis", "Fórmula 1", "Boxeo", "MMA", "Vóleibol", "Golf", "Ciclismo", "Natación", "Atletismo", "Rugby", "Hockey", "Esports"]
 };
 
