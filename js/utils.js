@@ -121,12 +121,21 @@ const MUSIC_TYPE_LABELS = {
   cancion: "Canción"
 };
 
-// Orden cronológico aproximado de lanzamiento, de más antigua a más nueva
+// Orden cronológico aproximado de lanzamiento, de más antigua a más nueva.
+// "pc" y "movil" se excluyen de aquí porque siempre van al final (ver
+// platformSortIndex).
 const PLATFORM_ORDER = [
-  "pc", "nes", "gameboy", "snes", "ps1", "n64", "ps2", "gba", "gamecube",
-  "xbox", "nds", "psp", "xbox360", "ps3", "wii", "movil", "n3ds", "psvita",
+  "nes", "gameboy", "snes", "ps1", "n64", "ps2", "gba", "gamecube",
+  "xbox", "nds", "psp", "xbox360", "ps3", "wii", "n3ds", "psvita",
   "wiiu", "ps4", "xboxone", "switch", "xboxseries", "ps5", "switch2"
 ];
+
+function platformSortIndex(key) {
+  if (key === "pc") return PLATFORM_ORDER.length;
+  if (key === "movil") return PLATFORM_ORDER.length + 1;
+  const idx = PLATFORM_ORDER.indexOf(key);
+  return idx === -1 ? PLATFORM_ORDER.length - 1 : idx;
+}
 
 const PLATFORM_LABELS = {};
 const PLATFORM_COLORS = {};
