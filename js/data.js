@@ -109,5 +109,15 @@ const entries = [
     resena: "Siempre quise probar un Pikmin, pero me daba flojera empezar. Al final Pikmin 4 me sorprendió. Le metí 40 horas para sacar el 100% (modo normal) y nunca se me hizo aburrido; a lo mucho, un poco lento por momentos. La exploración de las áreas, las cuevas, las misiones de noche, las batallas Dandori y el postgame hacen que haya mucho por hacer. Me pareció un gran juego para pasar el rato. PD: Estan rotisimos los Pikmin de hielo.",
     puntuacion: 4,
     fecha: "2026-07-13"
+  },
+  {
+    id: 11,
+    titulo: "Pokémon FireRed",
+    categoria: "videojuego",
+    imagen: "assets/img/pokemon-firered-11.jpg",
+    plataformas: ["switch","gba"],
+    resena: "Nada que no se sepa, es un clásico. Aún conservo mi cartucho de Game Boy Advance, pero no dudé ni un segundo en descargar el port para Switch. Eso sí, esta versión no agrega absolutamente nada nuevo; de hecho, siento que hasta empeora en algunas cosas lol. Aun así, siempre es un gusto volver a Kanto con los primeros 151. PD: Los que no le saben eligen a Charmander, los que le saben a Bulbasaur y los que le sabemos demasiado a Squirtle.",
+    puntuacion: 4,
+    fecha: "2026-02-27"
   }
 ];
