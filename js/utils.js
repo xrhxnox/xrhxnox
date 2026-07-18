@@ -30,8 +30,8 @@ const CATEGORY_ICONS = {
 
 const DATE_LABEL_BY_CATEGORY = {
   videojuego: "Jugado el",
-  serie: "Visto el",
-  pelicula: "Visto el",
+  serie: "Vista el",
+  pelicula: "Vista el",
   anime: "Visto el",
   "trash-tv": "Visto el",
   deportes: "Partido del",
