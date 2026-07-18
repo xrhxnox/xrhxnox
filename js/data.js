@@ -52,5 +52,14 @@ const entries = [
     resena: "Es el mejor juego de la historia, punto. Ya en serio, esta cosa salió al inicio de la pandemia y despues de haberle metido alrededor de 1000 horas, todavía no me lo he \"terminado\". Es absurdamente adictivo. La verdad ya no juego tanto como antes, pero de vez en cuando me dan semanas de entrar diario y hacer actividades en la isla. PD: La actualización para Switch 2 añadió resolución 4K. No es un cambio enorme, pero se agradece.",
     puntuacion: 5,
     fecha: "2020-04-20"
+  },
+  {
+    id: 5,
+    titulo: "Adidas adiFOM Climacool",
+    categoria: "compras",
+    imagen: "assets/img/adidas-adifom-climacool-5.png",
+    resena: "Estas bellezas abstractas se convirtieron en mis tenis de diario. No se dejen engañar por el diseño, porque son de los tenis más cómodos que he usado. El único detalle es que, por el material y al ser blancos, se ensucian demasiado rapido, aunque la verdad también son fáciles de limpiar. En serio necesito otro par, aunque no se si todavía los venden lol.",
+    puntuacion: 5,
+    fecha: "2024-11-28"
   }
 ];
