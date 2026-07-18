@@ -306,11 +306,6 @@ main {
   background: var(--surface);
   aspect-ratio: 1 / 1;
   cursor: default;
-  transition: transform 0.2s ease;
-}
-
-.card:hover {
-  transform: translateY(-3px);
 }
 
 .card img {
@@ -318,6 +313,11 @@ main {
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.06);
 }
 
 .card .badge {
