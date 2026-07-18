@@ -80,5 +80,14 @@ const entries = [
     resena: "Definitivamente es un juegazo. Y para los que dicen que es muy corto tengo algo que decirles: tienen razón lol. La campaña dura unas 2 horas, pero es un juego arcade y el chiste está en la rejugabilidad. Mejorar tu puntuación, conseguir todas las medallas, descubrir las rutas alternas, completar todos los desafíos y repetir todo en modo Experto alarga muchísimo la vida del juego. PD: Do a barrel roll!",
     puntuacion: 4,
     fecha: "2026-07-04"
+  },
+  {
+    id: 8,
+    titulo: "Reaper Rhino C 4-55D CX",
+    categoria: "compras",
+    imagen: "assets/img/reaper-rhino-c-4-55d-cx-8.jpg",
+    resena: "Sí, es un Beyblade. Después de ver demasiados videos me convencí de comprar uno. Obviamente no soy muy fan de los colores y unque tengo entendido que no es de los mejores Beyblade que hay, elegí este simplemente porque el rinoceronte es mi animal favorito. Siempre lo taigo conmigo aunque no tengo a nadie con quién jugar lol. PD: Go Shoot! (Let it Rip!)",
+    puntuacion: 4,
+    fecha: "2026-03-19"
   }
 ];
