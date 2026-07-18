@@ -137,9 +137,9 @@ function starsMarkup(rating) {
   const half = rating % 1 >= 0.5;
   let html = "";
   for (let i = 0; i < 5; i++) {
-    if (i < full) html += '<span class="filled">★</span>';
-    else if (i === full && half) html += '<span class="filled">⯨</span>';
-    else html += '<span class="empty">★</span>';
+    if (i < full) html += '<i class="fa-solid fa-star filled"></i>';
+    else if (i === full && half) html += '<i class="fa-solid fa-star-half-stroke filled"></i>';
+    else html += '<i class="fa-regular fa-star empty"></i>';
   }
   return html;
 }
