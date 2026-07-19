@@ -172,7 +172,7 @@ body {
 }
 
 .profile-stats {
-  margin: 8px 0 0;
+  margin: 8px 0 18px;
   font-size: 0.8rem;
   color: var(--text-dim);
 }
@@ -181,7 +181,7 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin: 12px 0 18px;
+  margin: 12px 0 0;
   padding: 6px 14px;
   background: var(--surface);
   border-radius: 999px;
