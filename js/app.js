@@ -139,7 +139,7 @@ function renderProfileStats() {
   const avg = entries.reduce((sum, e) => sum + e.puntuacion, 0) / count;
   const years = entries.map(e => e.fecha ? Number(e.fecha.slice(0, 4)) : null).filter(Boolean);
 
-  const parts = [`${count} ${count === 1 ? "reseña" : "reseñas"}`, `${avg.toFixed(1)}★ promedio`];
+  const parts = [`${count} ${count === 1 ? "reseña" : "reseñas"}`, `${avg.toFixed(1)} ★ promedio`];
   if (years.length) parts.push(`desde ${Math.min(...years)}`);
 
   statsEl.textContent = parts.join(" · ");
