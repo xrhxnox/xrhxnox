@@ -113,7 +113,8 @@ const GENRE_OPTIONS = {
   anime: ["Shonen", "Shojo", "Seinen", "Josei", "Isekai", "Mecha", "Slice of Life", "Deporte", "Romance", "Comedia", "Terror", "Psicológico", "Fantasía", "Acción", "Drama", "Sobrenatural"],
   musica: ["Pop", "Rock", "Hip-Hop", "R&B", "Reggaetón", "Electrónica", "Jazz", "Clásica", "Indie", "Metal", "Punk", "Folk", "Country", "K-Pop", "Latina", "Soul"],
   "real-madrid": ["Liga", "Copa del Rey", "Champions League", "Fichaje"],
-  deportes: ["Fútbol", "Básquetbol", "Béisbol", "Tenis", "Fórmula 1", "Boxeo", "MMA", "Vóleibol", "Golf", "Ciclismo", "Natación", "Atletismo", "Rugby", "Hockey", "Esports"]
+  deportes: ["Fútbol", "Básquetbol", "Béisbol", "Tenis", "Fórmula 1", "Boxeo", "MMA", "Vóleibol", "Golf", "Ciclismo", "Natación", "Atletismo", "Rugby", "Hockey", "Esports"],
+  compras: ["Ropa", "Gadgets", "Otros"]
 };
 
 const MUSIC_TYPE_LABELS = {
