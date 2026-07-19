@@ -137,5 +137,15 @@ const entries = [
     resena: "La compré principalmente para grabar mis partidos de padel y algunos viajes, y la verdad ha cumplido de sobra. La calidad de imagen es muy buena y el tamaño hace que pueda llevarla a cualquier lado sin estorbar. Eso sí, la batería podría durar más si grabas en resoluciones altas y algunos accesorios oficiales están carísimos. Fuera de eso, me ha gustado mucho y siento que todavía no le saco todo el provecho. Necesito más pretextos para usarla.",
     puntuacion: 4.5,
     fecha: "2025-03-13"
+  },
+  {
+    id: 15,
+    titulo: "Metroid Dread",
+    categoria: "videojuego",
+    imagen: "assets/img/metroid-dread-15.jpg",
+    plataformas: ["switch"],
+    resena: "Top 5 de mis juegos favoritos de la consola, sin duda. Nunca había jugado un Metroid 2D completo y este me dejó con ganas de jugar toda la saga. De verdad es un pinche joya. El gameplay, la exploración, los jefes y la tensión que se siente cada vez que te encuentras con un E.M.M.I. hacen que sea una locura de juego. 100% recomendado alv. ⭐⭐⭐⭐⭐⭐",
+    puntuacion: 5,
+    fecha: "2021-11-20"
   }
 ];
