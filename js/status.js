@@ -1,2 +1,5 @@
 // Estado actual — se edita desde admin.html
-const currentStatus = null;
+const currentStatus = {
+  categoria: "serie",
+  titulo: "The O.C. (Tempoarada 3)"
+};
