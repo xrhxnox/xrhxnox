@@ -172,9 +172,49 @@ body {
 }
 
 .profile-stats {
-  margin: 8px 0 18px;
+  margin: 8px 0 0;
   font-size: 0.8rem;
   color: var(--text-dim);
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 12px 0 18px;
+  padding: 6px 14px;
+  background: var(--surface);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  color: var(--text);
+}
+
+.status-badge .status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #22c55e;
+  animation: statusPulse 1.8s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+.status-badge .status-verb {
+  color: var(--text-dim);
+}
+
+.status-badge .status-title {
+  font-weight: 600;
+}
+
+@keyframes statusPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status-badge .status-dot {
+    animation: none;
+  }
 }
 
 .header-actions {
@@ -554,6 +594,40 @@ main {
   font-size: 0.8rem;
   cursor: pointer;
   padding: 0;
+}
+
+.danger-text-btn {
+  color: #ff6c6c;
+}
+
+.status-section {
+  margin-bottom: 24px;
+}
+
+.status-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--surface);
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.status-form select,
+.status-form input[type="text"] {
+  background: var(--bg);
+  color: var(--text);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  font-family: inherit;
+}
+
+.status-form-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .entries-hint {

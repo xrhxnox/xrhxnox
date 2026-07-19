@@ -147,6 +147,23 @@ function renderProfileStats() {
 }
 renderProfileStats();
 
+function renderStatus() {
+  const badge = document.getElementById("statusBadge");
+  if (!badge || typeof currentStatus === "undefined" || !currentStatus || !currentStatus.titulo) return;
+
+  const icon = CATEGORY_ICONS[currentStatus.categoria] || "fa-solid fa-tag";
+  const verb = STATUS_VERB_BY_CATEGORY[currentStatus.categoria] || "Con";
+
+  badge.innerHTML = `
+    <span class="status-dot"></span>
+    <i class="${icon}"></i>
+    <span class="status-verb">${verb}</span>
+    <span class="status-title">${currentStatus.titulo}</span>
+  `;
+  badge.hidden = false;
+}
+renderStatus();
+
 const themeToggle = document.getElementById("themeToggle");
 const THEME_KEY = "ricstars_theme";
 

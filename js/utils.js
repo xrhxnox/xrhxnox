@@ -43,6 +43,21 @@ const DATE_LABEL_BY_CATEGORY = {
   libro: "Leído el"
 };
 
+const STATUS_VERB_BY_CATEGORY = {
+  videojuego: "Jugando",
+  serie: "Viendo",
+  pelicula: "Viendo",
+  anime: "Viendo",
+  "trash-tv": "Viendo",
+  deportes: "Viendo",
+  "real-madrid": "Viendo",
+  musica: "Escuchando",
+  app: "Usando",
+  comida: "Probando",
+  compras: "Comprando",
+  libro: "Leyendo"
+};
+
 const PLATFORM_GROUPS = {
   nintendo: {
     label: "Nintendo",
