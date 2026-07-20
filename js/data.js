@@ -180,7 +180,7 @@ const entries = [
     imagen: "assets/img/pokemon-violet-18.jpg",
     plataformas: ["switch"],
     resena: "Soy consciente de que el mundo abierto es bastante plano y vacío, que técnicamente es un desastre y que gráficamente deja muchísimo que desear. Aun así, no voy a mentir: lo disfruté a pesar de todo lo anterior. En Switch 2 el rendimiento mejora bastante, aunque visualmente sigue viéndose feo. Con todos sus problemas, creo que el gameplay y la fórmula de Pokémon lograron mantenerme enganchado. Eso sí, no quita que sea un juego mediocre.",
-    puntuacion: 2.5,
+    puntuacion: 2,
     fecha: "2022-11-20"
   }
 ];
