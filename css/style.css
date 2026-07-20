@@ -17,10 +17,8 @@
   --cat-trash-tv: #e879f9;
   --cat-anime: #22d3ee;
   --cat-musica: #f472b6;
-  --cat-comida: #fb923c;
-  --cat-real-madrid: #d4af37;
-  --cat-deportes: #4ade80;
-  --cat-compras: #2dd4bf;
+  --cat-deportes: #d4af37;
+  --cat-escenciales: #2dd4bf;
 
   --photo-border: #3a3a38;
   --overlay-text: #eeeeec;
@@ -332,13 +330,11 @@ main {
 
 .filter-btn[data-filter="anime"] i { color: var(--cat-anime); }
 .filter-btn[data-filter="app"] i { color: var(--cat-app); }
-.filter-btn[data-filter="comida"] i { color: var(--cat-comida); }
-.filter-btn[data-filter="compras"] i { color: var(--cat-compras); }
+.filter-btn[data-filter="escenciales"] i { color: var(--cat-escenciales); }
 .filter-btn[data-filter="deportes"] i { color: var(--cat-deportes); }
 .filter-btn[data-filter="libro"] i { color: var(--cat-libro); }
 .filter-btn[data-filter="musica"] i { color: var(--cat-musica); }
 .filter-btn[data-filter="pelicula"] i { color: var(--cat-pelicula); }
-.filter-btn[data-filter="real-madrid"] i { color: var(--cat-real-madrid); }
 .filter-btn[data-filter="serie"] i { color: var(--cat-serie); }
 .filter-btn[data-filter="trash-tv"] i { color: var(--cat-trash-tv); }
 .filter-btn[data-filter="videojuego"] i { color: var(--cat-videojuego); }
@@ -454,10 +450,8 @@ main {
 .badge.trash-tv { color: var(--cat-trash-tv); }
 .badge.anime { color: var(--cat-anime); }
 .badge.musica { color: var(--cat-musica); }
-.badge.comida { color: var(--cat-comida); }
-.badge.real-madrid { color: var(--cat-real-madrid); }
 .badge.deportes { color: var(--cat-deportes); }
-.badge.compras { color: var(--cat-compras); }
+.badge.escenciales { color: var(--cat-escenciales); }
 
 .platform-tags {
   position: absolute;

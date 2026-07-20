@@ -7,10 +7,8 @@ const CATEGORY_LABELS = {
   libro: "Libro",
   musica: "Música",
   deportes: "Deportes",
-  "real-madrid": "Real Madrid",
   app: "App",
-  comida: "Comida",
-  compras: "Compras"
+  escenciales: "Escenciales"
 };
 
 const CATEGORY_ICONS = {
@@ -22,10 +20,8 @@ const CATEGORY_ICONS = {
   libro: "fa-solid fa-book",
   musica: "fa-solid fa-music",
   deportes: "fa-solid fa-trophy",
-  "real-madrid": "fa-solid fa-shield-halved",
   app: "fa-solid fa-mobile-screen-button",
-  comida: "fa-solid fa-utensils",
-  compras: "fa-solid fa-bag-shopping"
+  escenciales: "fa-solid fa-bag-shopping"
 };
 
 const DATE_LABEL_BY_CATEGORY = {
@@ -35,11 +31,9 @@ const DATE_LABEL_BY_CATEGORY = {
   anime: "Visto el",
   "trash-tv": "Visto el",
   deportes: "Partido del",
-  "real-madrid": "Partido del",
   musica: "Escuchado el",
   app: "Usado el",
-  comida: "Probado el",
-  compras: "Adquirido el",
+  escenciales: "Adquirido el",
   libro: "Leído el"
 };
 
@@ -50,11 +44,9 @@ const STATUS_VERB_BY_CATEGORY = {
   anime: "Viendo",
   "trash-tv": "Viendo",
   deportes: "Viendo",
-  "real-madrid": "Viendo",
   musica: "Escuchando",
   app: "Usando",
-  comida: "Probando",
-  compras: "Comprando",
+  escenciales: "Comprando",
   libro: "Leyendo"
 };
 
@@ -127,9 +119,20 @@ const GENRE_OPTIONS = {
   serie: ["Acción", "Aventura", "Comedia", "Drama", "Terror", "Ciencia ficción", "Fantasía", "Romance", "Suspenso", "Documental", "Crimen", "Sitcom"],
   anime: ["Shonen", "Shojo", "Seinen", "Josei", "Isekai", "Mecha", "Slice of Life", "Deporte", "Romance", "Comedia", "Terror", "Psicológico", "Fantasía", "Acción", "Drama", "Sobrenatural"],
   musica: ["Pop", "Rock", "Hip-Hop", "R&B", "Reggaetón", "Electrónica", "Jazz", "Clásica", "Indie", "Metal", "Punk", "Folk", "Country", "K-Pop", "Latina", "Soul"],
-  "real-madrid": ["Liga", "Copa del Rey", "Champions League", "Fichaje"],
-  deportes: ["Fútbol", "Básquetbol", "Béisbol", "Tenis", "Fórmula 1", "Boxeo", "MMA", "Vóleibol", "Golf", "Ciclismo", "Natación", "Atletismo", "Rugby", "Hockey", "Esports"],
-  compras: ["Ropa", "Gadgets", "Otros"]
+  deportes: ["Real Madrid", "Santos", "Raiders", "Cubs", "Bulls"],
+  escenciales: ["Ropa", "Gadgets", "Comida", "Bebida", "Otros"]
+};
+
+// Colores fijos por género, para categorías donde el género representa
+// un equipo/marca con su propio color (en vez del color de la categoría).
+const GENRE_COLORS = {
+  deportes: {
+    "Real Madrid": { bg: "var(--cat-deportes)", text: "#1f1f1e" },
+    "Santos": { bg: "#4ade80", text: "#1f1f1e" },
+    "Raiders": { bg: "#000000", text: "#ffffff" },
+    "Cubs": { bg: "#1d4ed8", text: "#ffffff" },
+    "Bulls": { bg: "#dc2626", text: "#ffffff" }
+  }
 };
 
 const MUSIC_TYPE_LABELS = {

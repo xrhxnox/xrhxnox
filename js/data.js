@@ -4,9 +4,10 @@
 // admin.html — también puedes editarlo a mano si prefieres.
 //
 // categoria: "videojuego" | "app" | "libro" | "pelicula" | "serie" |
-//            "trash-tv" | "anime" | "comida" | "otro"
+//            "trash-tv" | "anime" | "deportes" | "musica" | "escenciales"
 // plataformas: solo para videojuego, lista de claves (ver js/utils.js)
-// generos: solo para libro/pelicula/serie/anime, lista de strings
+// generos: ver GENRE_OPTIONS en js/utils.js (deportes usa nombres de
+//          equipo con color propio, ver GENRE_COLORS)
 // puntuacion: número del 1 al 5 (acepta medios puntos, ej. 3.5)
 // imagen: ruta a la portada/carátula (guárdala en assets/img/)
 // fecha: cuándo lo terminaste, formato AAAA-MM-DD
@@ -56,7 +57,7 @@ const entries = [
   {
     id: 5,
     titulo: "Adidas adiFOM Climacool",
-    categoria: "compras",
+    categoria: "escenciales",
     imagen: "assets/img/adidas-adifom-climacool-5.jpg",
     generos: ["Ropa"],
     resena: "Estas bellezas abstractas se convirtieron en mis tenis de diario. No se dejen engañar por el diseño, porque son de los tenis más cómodos que he usado. El único detalle es que, por el material y al ser blancos, se ensucian demasiado rapido, aunque la verdad también son fáciles de limpiar. En serio necesito otro par, aunque no se si todavía los venden lol.",
@@ -66,7 +67,7 @@ const entries = [
   {
     id: 6,
     titulo: "Adidas Originals SST Airliner",
-    categoria: "compras",
+    categoria: "escenciales",
     imagen: "assets/img/adidas-originals-sst-airliner-6.jpg",
     generos: ["Otros"],
     resena: "Esta mmm ¿bolsa? es demasiado util. Está hecha de un material rígido que protege muy bien todo lo que llevo dentro. La mayor parte del tiempo la uso sin la correa.\nNo es de gran capacidad, pero sin problema caben mis cosas del diario: celular, lentes, cartera, llaves e incluso un Beyblade. Por el material, más de una vez me han preguntado si traigo una Switch o un dron lol, pero no le saben a la moda.",
@@ -86,7 +87,7 @@ const entries = [
   {
     id: 8,
     titulo: "Beyblade X Reaper Rhino C 4-55D CX",
-    categoria: "compras",
+    categoria: "escenciales",
     imagen: "assets/img/reaper-rhino-c-4-55d-cx-8.jpg",
     generos: ["Otros"],
     resena: "Sí, es un Beyblade. Después de ver demasiados videos me convencí de comprar uno. Obviamente no soy muy fan de los colores y unque tengo entendido que no es de los mejores Beyblade que hay, elegí este simplemente porque el rinoceronte es mi animal favorito. Siempre lo traigo conmigo aunque no tengo a nadie con quién jugar lol. PD: Go Shoot! (Let it Rip!)",
@@ -126,7 +127,7 @@ const entries = [
   {
     id: 12,
     titulo: "PowerA Wireless Controller for Nintendo Switch - Pikachu Ecstatic",
-    categoria: "compras",
+    categoria: "escenciales",
     imagen: "assets/img/powera-wireless-controller-for-nintendo-switch-pikachu-ecstatic-12.jpg",
     generos: ["Gadgets"],
     resena: "Lo compré de emergencia porque tenía un torneo de VGC y a todos mis demás controles de Switch les dio drift (Joy-Cons y genéricos). Llevo casi 3 meses usándolo y, hasta ahora, cero problemas. Es ergonómico, ligero y además tiene un diseño GOD. Mi único pero es que usa baterías; cuando lo compré pensé que era recargable. Por los $764 que me costó, espero que dure buen rato.",
@@ -136,7 +137,7 @@ const entries = [
   {
     id: 14,
     titulo: "GoPro Hero 13 Black",
-    categoria: "compras",
+    categoria: "escenciales",
     imagen: "assets/img/gopro-hero-13-black-14.jpg",
     generos: ["Gadgets"],
     resena: "La compré principalmente para grabar mis partidos de padel y algunos viajes, y la verdad ha cumplido de sobra. La calidad de imagen es muy buena y el tamaño hace que pueda llevarla a cualquier lado sin estorbar. Eso sí, la batería podría durar más si grabas en resoluciones altas y algunos accesorios oficiales están carísimos. Fuera de eso, me ha gustado mucho y siento que todavía no le saco todo el provecho. Necesito más pretextos para usarla.",

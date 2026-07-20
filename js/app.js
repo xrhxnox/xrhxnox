@@ -26,13 +26,16 @@ function metaTagsMarkup(entry) {
     return `<div class="platform-tags">${tags}</div>`;
   }
   if ((entry.generos && entry.generos.length) || entry.tipo) {
-    const color = `var(--cat-${entry.categoria})`;
+    const defaultColor = `var(--cat-${entry.categoria})`;
     const tipoTag = entry.tipo
-      ? `<span class="platform-tag" style="--platform-color:${color};--platform-text:#1f1f1e">${MUSIC_TYPE_LABELS[entry.tipo] || entry.tipo}</span>`
+      ? `<span class="platform-tag" style="--platform-color:${defaultColor};--platform-text:#1f1f1e">${MUSIC_TYPE_LABELS[entry.tipo] || entry.tipo}</span>`
       : "";
-    const genreTags = (entry.generos || []).map(g =>
-      `<span class="platform-tag" style="--platform-color:${color};--platform-text:#1f1f1e">${g}</span>`
-    ).join("");
+    const genreTags = (entry.generos || []).map(g => {
+      const custom = GENRE_COLORS[entry.categoria] && GENRE_COLORS[entry.categoria][g];
+      const bg = custom ? custom.bg : defaultColor;
+      const text = custom ? custom.text : "#1f1f1e";
+      return `<span class="platform-tag" style="--platform-color:${bg};--platform-text:${text}">${g}</span>`;
+    }).join("");
     return `<div class="platform-tags">${tipoTag}${genreTags}</div>`;
   }
   return "";
