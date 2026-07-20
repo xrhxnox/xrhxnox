@@ -162,5 +162,15 @@ const entries = [
     resena: "No pensé que un simple termo pudiera gustarme tanto lol. Se siente muy resistente, es práctico y el sistema para tomar agua con o sin popote es un game changer. Tenía dudas entre este y el de 32oz, pero ya teniéndolo en las manos creo que el tamaño es perfecto para llevarlo a todos lados sin que estorbe. Puede sonar obvio, pero no está de más mencionar que sí mantiene el agua fría durante bastante tiempo.",
     puntuacion: 5,
     fecha: "2026-01-10"
+  },
+  {
+    id: 17,
+    titulo: "Beats Solo Buds - Negro",
+    categoria: "escenciales",
+    imagen: "assets/img/beats-solo-buds-negro-17.jpg",
+    generos: ["Gadgets"],
+    resena: "Los compré porque quería unos audífonos pequeños para traer siempre conmigo y cumplen muy bien esa función. Suenan muy bien y son cómodos. Aunque el estuche no carga los audífonos, la batería dura unas 15 horas, así que realmente no es un problema (al menos para mí). Tampoco tienen cancelación de ruido, pero la verdad meh. Por el precio los recomiendo, aunque se que hay opciones mejores por un poco más de dinero o incluso por un precio similar.",
+    puntuacion: 3.5,
+    fecha: "2026-07-20"
   }
 ];
