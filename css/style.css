@@ -10,7 +10,6 @@
   --radius: 12px;
 
   --cat-videojuego: #a78bfa;
-  --cat-app: #60a5fa;
   --cat-libro: #e0b378;
   --cat-pelicula: #f87171;
   --cat-serie: #818cf8;
@@ -329,7 +328,6 @@ main {
 }
 
 .filter-btn[data-filter="anime"] i { color: var(--cat-anime); }
-.filter-btn[data-filter="app"] i { color: var(--cat-app); }
 .filter-btn[data-filter="escenciales"] i { color: var(--cat-escenciales); }
 .filter-btn[data-filter="deportes"] i { color: var(--cat-deportes); }
 .filter-btn[data-filter="libro"] i { color: var(--cat-libro); }
@@ -443,7 +441,6 @@ main {
 }
 
 .badge.videojuego { color: var(--cat-videojuego); }
-.badge.app { color: var(--cat-app); }
 .badge.libro { color: var(--cat-libro); }
 .badge.pelicula { color: var(--cat-pelicula); }
 .badge.serie { color: var(--cat-serie); }

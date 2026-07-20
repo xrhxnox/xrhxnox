@@ -7,7 +7,6 @@ const CATEGORY_LABELS = {
   libro: "Libro",
   musica: "Música",
   deportes: "Deportes",
-  app: "App",
   escenciales: "Escenciales"
 };
 
@@ -20,7 +19,6 @@ const CATEGORY_ICONS = {
   libro: "fa-solid fa-book",
   musica: "fa-solid fa-music",
   deportes: "fa-solid fa-trophy",
-  app: "fa-solid fa-mobile-screen-button",
   escenciales: "fa-solid fa-bag-shopping"
 };
 
@@ -32,7 +30,6 @@ const DATE_LABEL_BY_CATEGORY = {
   "trash-tv": "Visto el",
   deportes: "Partido del",
   musica: "Escuchado el",
-  app: "Usado el",
   escenciales: "Adquirido el",
   libro: "Leído el"
 };
@@ -45,7 +42,6 @@ const STATUS_VERB_BY_CATEGORY = {
   "trash-tv": "Viendo",
   deportes: "Viendo",
   musica: "Escuchando",
-  app: "Usando",
   escenciales: "Comprando",
   libro: "Leyendo"
 };
@@ -120,7 +116,7 @@ const GENRE_OPTIONS = {
   anime: ["Shonen", "Shojo", "Seinen", "Josei", "Isekai", "Mecha", "Slice of Life", "Deporte", "Romance", "Comedia", "Terror", "Psicológico", "Fantasía", "Acción", "Drama", "Sobrenatural"],
   musica: ["Pop", "Rock", "Hip-Hop", "R&B", "Reggaetón", "Electrónica", "Jazz", "Clásica", "Indie", "Metal", "Punk", "Folk", "Country", "K-Pop", "Latina", "Soul"],
   deportes: ["Real Madrid", "Santos", "Raiders", "Cubs", "Bulls"],
-  escenciales: ["Ropa", "Gadgets", "Comida", "Bebida", "Otros"]
+  escenciales: ["Ropa", "Gadgets", "Apps", "Comida", "Bebida", "Otros"]
 };
 
 // Colores fijos por género, para categorías donde el género representa
