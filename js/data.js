@@ -129,7 +129,7 @@ const entries = [
     categoria: "escenciales",
     imagen: "assets/img/powera-wireless-controller-for-nintendo-switch-pikachu-ecstatic-12.jpg",
     generos: ["Gadgets"],
-    resena: "Lo compré de emergencia porque tenía un torneo de VGC y a todos mis demás controles de Switch les dio drift (Joy-Cons y genéricos). Llevo casi 3 meses usándolo y, hasta ahora, cero problemas. Es ergonómico, ligero y además tiene un diseño GOD. Mi único pero es que usa baterías; cuando lo compré pensé que era recargable. Por los $764 que me costó, espero que dure buen rato.",
+    resena: "Lo compré porque a todos mis demás controles de Switch les dio drift lol. Llevo casi 3 meses usándolo y, hasta ahora, cero problemas. Es ergonómico, ligero y además tiene un diseño GOD. Mi único pero es que usa baterías; cuando lo compré pensé que era recargable. Por los $764 que me costó, espero que dure buen rato.",
     puntuacion: 3,
     fecha: "2026-04-15"
   },
