@@ -169,8 +169,8 @@ const entries = [
     categoria: "escenciales",
     imagen: "assets/img/beats-solo-buds-negro-17.jpg",
     generos: ["Gadgets"],
-    resena: "Los compré porque quería unos audífonos pequeños para traer siempre conmigo y cumplen muy bien esa función. Suenan muy bien y son cómodos. Aunque el estuche no carga los audífonos, la batería dura unas 15 horas, así que realmente no es un problema (al menos para mí). Tampoco tienen cancelación de ruido, pero la verdad meh. Por el precio los recomiendo, aunque se que hay opciones mejores por un poco más de dinero o incluso por un precio similar.",
+    resena: "Los compré porque quería unos audífonos pequeños, cómodos y que sonaran bien, y cumplen muy bien en todo eso. Aunque el estuche no carga los audífonos, la batería dura unas 15 horas, así que realmente no me resulta un problema. Tampoco tienen cancelación de ruido, pero la verdad también me da un poco igual lol. Por el precio los recomiendo, aunque sé que hay opciones mejores por un poco más de dinero o incluso por un precio similar.",
     puntuacion: 3.5,
-    fecha: "2026-07-20"
+    fecha: "2025-06-01"
   }
 ];
