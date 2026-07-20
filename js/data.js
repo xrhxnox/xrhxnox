@@ -189,7 +189,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/pokemon-legends-za-19.jpg",
     plataformas: ["switch","switch2"],
-    resena: "No me voy a cansar de decir que es una oportunidad bastante desperdiciada limitar todo el juego a una ciudad tan vacía. El gameplay es bastante entretenido, aunque pierde bastante el lado estratégico y con el tiempo puede volverse repetitivo. Lo de siempre, Pokémon quedandose corto.",
+    resena: "No me voy a cansar de decir que es una oportunidad bastante desperdiciada limitar todo el juego a una ciudad tan vacía. El gameplay es bastante entretenido, aunque pierde bastante el lado estratégico y con el tiempo puede volverse repetitivo. La verdad me la pasé bien jugándolo, pero pues lo de siempre: Pokémon quedándose corto.",
     puntuacion: 3,
     fecha: "2025-10-20"
   }
