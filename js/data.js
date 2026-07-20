@@ -150,7 +150,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/metroid-dread-15.jpg",
     plataformas: ["switch"],
-    resena: "Top 5 de mis juegos favoritos de la consola, sin duda. Nunca había jugado un Metroid 2D completo y este me dejó con ganas de jugar toda la saga. De verdad es una pinche joya. El gameplay, la exploración, los jefes y la tensión que se siente cada vez que te encuentras con un E.M.M.I. hacen que sea una locura de juego. 100% recomendado alv. ⭐⭐⭐⭐⭐⭐",
+    resena: "Top 5 de mis juegos favoritos de la consola, sin duda. Nunca había jugado un Metroid 2D completo y este me dejó con ganas de jugar toda la saga. De verdad es una pinche joya. El gameplay, la exploración, los jefes y la tensión que se siente cada vez que te encuentras con un E.M.M.I. hacen que sea una locura de juego. 100% recomendado alv. SEIS ESTRELLAS",
     puntuacion: 5,
     fecha: "2021-11-20"
   }

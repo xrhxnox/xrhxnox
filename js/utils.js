@@ -19,7 +19,7 @@ const CATEGORY_ICONS = {
   libro: "fa-solid fa-book",
   musica: "fa-solid fa-music",
   deportes: "fa-solid fa-trophy",
-  escenciales: "fa-solid fa-bag-shopping"
+  escenciales: "fa-solid fa-star"
 };
 
 const DATE_LABEL_BY_CATEGORY = {
