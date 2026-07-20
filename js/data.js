@@ -4,10 +4,9 @@
 // admin.html — también puedes editarlo a mano si prefieres.
 //
 // categoria: "videojuego" | "app" | "libro" | "pelicula" | "serie" |
-//            "trash-tv" | "anime" | "deportes" | "musica" | "escenciales"
+//            "trash-tv" | "anime" | "comida" | "otro"
 // plataformas: solo para videojuego, lista de claves (ver js/utils.js)
-// generos: ver GENRE_OPTIONS en js/utils.js (deportes usa nombres de
-//          equipo con color propio, ver GENRE_COLORS)
+// generos: solo para libro/pelicula/serie/anime, lista de strings
 // puntuacion: número del 1 al 5 (acepta medios puntos, ej. 3.5)
 // imagen: ruta a la portada/carátula (guárdala en assets/img/)
 // fecha: cuándo lo terminaste, formato AAAA-MM-DD
@@ -153,5 +152,15 @@ const entries = [
     resena: "Top 5 de mis juegos favoritos de la consola, sin duda. Nunca había jugado un Metroid 2D completo y este me dejó con ganas de jugar toda la saga. De verdad es una pinche joya. El gameplay, la exploración, los jefes y la tensión que se siente cada vez que te encuentras con un E.M.M.I. hacen que sea una locura de juego. 100% recomendado alv. SEIS ESTRELLAS",
     puntuacion: 5,
     fecha: "2021-11-20"
+  },
+  {
+    id: 16,
+    titulo: "Black Owala 24oz FreeSip",
+    categoria: "escenciales",
+    imagen: "assets/img/black-owala-24oz-freesip-16.jpg",
+    generos: ["Otros"],
+    resena: "No pensé que un simple termo pudiera gustarme tanto lol. Se siente muy resistente, es práctico y el sistema para tomar agua con o sin popote es un game changer. Tenía dudas entre este y el de 32oz, pero ya teniéndolo en las manos creo que el tamaño es perfecto para llevarlo a todos lados sin que estorbe. Puede sonar obvio, pero no está de más mencionar que sí mantiene el agua fría durante bastante tiempo.",
+    puntuacion: 5,
+    fecha: "2026-01-10"
   }
 ];
