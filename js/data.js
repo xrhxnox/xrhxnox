@@ -172,5 +172,15 @@ const entries = [
     resena: "Los compré porque quería unos audífonos pequeños, cómodos y que sonaran bien, y cumplen muy bien en todo eso. Aunque el estuche no carga los audífonos, la batería dura unas 15 horas, así que realmente no me resulta un problema. Tampoco tienen cancelación de ruido, pero la verdad también me da un poco igual lol. Por el precio los recomiendo, aunque sé que hay opciones mejores por un poco más de dinero o incluso por un precio similar.",
     puntuacion: 3.5,
     fecha: "2025-06-01"
+  },
+  {
+    id: 18,
+    titulo: "Pokémon Violet",
+    categoria: "videojuego",
+    imagen: "assets/img/pokemon-violet-18.jpg",
+    plataformas: ["switch"],
+    resena: "Soy consciente de que el mundo abierto es bastante plano y vacío, que técnicamente es un desastre y que gráficamente deja muchísimo que desear. Aun así, no voy a mentir: lo disfruté a pesar de todo lo anterior. En Switch 2 el rendimiento mejora bastante, aunque visualmente sigue viéndose feo. Con todos sus problemas, creo que el gameplay y la fórmula de Pokémon lograron mantenerme enganchado.",
+    puntuacion: 2.5,
+    fecha: "2022-11-20"
   }
 ];
