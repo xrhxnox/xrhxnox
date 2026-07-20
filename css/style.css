@@ -330,6 +330,19 @@ main {
   background: var(--surface);
 }
 
+.filter-btn[data-filter="anime"] i { color: var(--cat-anime); }
+.filter-btn[data-filter="app"] i { color: var(--cat-app); }
+.filter-btn[data-filter="comida"] i { color: var(--cat-comida); }
+.filter-btn[data-filter="compras"] i { color: var(--cat-compras); }
+.filter-btn[data-filter="deportes"] i { color: var(--cat-deportes); }
+.filter-btn[data-filter="libro"] i { color: var(--cat-libro); }
+.filter-btn[data-filter="musica"] i { color: var(--cat-musica); }
+.filter-btn[data-filter="pelicula"] i { color: var(--cat-pelicula); }
+.filter-btn[data-filter="real-madrid"] i { color: var(--cat-real-madrid); }
+.filter-btn[data-filter="serie"] i { color: var(--cat-serie); }
+.filter-btn[data-filter="trash-tv"] i { color: var(--cat-trash-tv); }
+.filter-btn[data-filter="videojuego"] i { color: var(--cat-videojuego); }
+
 .filter-btn.active {
   background: var(--surface-hover);
   color: var(--text);
