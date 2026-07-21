@@ -19,7 +19,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/pokemon-champions-1.jpg",
     plataformas: ["switch","switch2","movil"],
-    resena: "La mejor forma de entrar al competitivo (sin contar Showdown lol). El gameplay es buenísimo porque al final sigue siendo el sistema de combate clásico de Pokémon, que para mí está casi perfecto. Eso sí, en lo técnico y gráfico queda debiendo bastante; ni siquiera tiene una versión nativa para Switch 2. Si siguen actualizando el meta, creo que me mantendrá entretenido. Intentaré llegar a Master cada season. PD: Blastoise siempre en mi equipo.",
+    resena: "La mejor forma de entrar al competitivo (sin contar Showdown lol). El gameplay es buenísimo porque al final sigue siendo el sistema de combate clásico de Pokémon, que para mí está casi perfecto. Eso sí, en lo técnico y gráfico queda debiendo bastante; ni siquiera tiene una versión nativa para Switch 2. Si siguen actualizando el meta, creo que me mantendrá entretenido. Intentaré llegar a Master cada season. Nota: Blastoise siempre en mi equipo.",
     puntuacion: 7,
     fecha: "2026-04-08"
   },
@@ -29,7 +29,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/pokemon-tcg-pocket-2.jpg",
     plataformas: ["movil"],
-    resena: "Lo sabía, terminé volviéndome adicto a las cartitas. Nunca quise coleccionar cartas físicas de Pokémon porque sabía que iba a entrar en un círculo vicioso; por suerte existe esto. Tengo el Pase Prémium y abrir 4 sobres al día prácticamente es obligatorio si quieres completar las expansiones. El combate es básico, pero entretenido. Llegué a Master una vez y con eso tuve, prefiero coleccionar. PD: Intercambiemos cartas de Pikachu.",
+    resena: "Lo sabía, terminé volviéndome adicto a las cartitas. Nunca quise coleccionar cartas físicas de Pokémon porque sabía que iba a entrar en un círculo vicioso; por suerte existe esto. Tengo el Pase Prémium y abrir 4 sobres al día prácticamente es obligatorio si quieres completar las expansiones. El combate es básico, pero entretenido. Llegué a Master una vez y con eso tuve, prefiero coleccionar. Nota: Intercambiemos cartas de Pikachu.",
     puntuacion: 9,
     fecha: "2024-10-30"
   },
@@ -39,7 +39,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/league-of-legends-3.jpg",
     plataformas: ["pc"],
-    resena: "El peor juego del mundo, no lo descarguen si no quieren arruinar su vida. Duré casi 8 años jugándolo prácticamente a diario (con amigos, porque Solo Q es un infierno) y apenas el año pasado lo dejé. De vez en cuando todavía me echo una que otra partida, pero ya muy casual. Lo más alto que llegué fue Platino. Top laner de corazón. Main Gnar, Jayce, Kennen y Rumble. PD: No me me pregunten cuanto gasté en skins.",
+    resena: "El peor juego del mundo, no lo descarguen si no quieren arruinar su vida. Duré casi 8 años jugándolo prácticamente a diario (con amigos, porque Solo Q es un infierno) y apenas el año pasado lo dejé. De vez en cuando todavía me echo una que otra partida, pero ya muy casual. Lo más alto que llegué fue Platino. Top laner de corazón. Main Gnar, Jayce, Kennen y Rumble. Nota: No me me pregunten cuanto gasté en skins.",
     puntuacion: 0,
     fecha: "2016-06-01"
   },
@@ -49,7 +49,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
     plataformas: ["switch","switch2"],
-    resena: "Es el mejor juego de la puta historia, punto. Ya en serio, esta cosa salió a inicios de pandemia y despues de haberle metido alrededor de 1000 horas, todavía no me lo he \"terminado\". Es absurdamente adictivo. La verdad ya no juego tanto como antes, pero de vez en cuando me dan semanas de entrar diario y hacer actividades en la isla. PD: La actualización para Switch 2 añadió resolución 4K. No es un cambio enorme, pero se agradece.",
+    resena: "Es el mejor juego de la puta historia, punto. Ya en serio, esta cosa salió a inicios de pandemia y despues de haberle metido alrededor de 1000 horas, todavía no me lo he \"terminado\". Es absurdamente adictivo. La verdad ya no juego tanto como antes, pero de vez en cuando me dan semanas de entrar diario y hacer actividades en la isla. Nota: La actualización para Switch 2 añadió resolución 4K. No es un cambio enorme, pero se agradece.",
     puntuacion: 10,
     fecha: "2020-04-20"
   },
@@ -79,7 +79,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/star-fox-7.jpg",
     plataformas: ["switch2"],
-    resena: "Definitivamente es un juegazo. Y para los que dicen que es muy corto tengo algo que decirles: tienen razón lol. La campaña dura unas 2 horas, pero es un juego arcade y el chiste está en la rejugabilidad. Mejorar tu puntuación, conseguir todas las medallas, descubrir las rutas alternas, completar todos los desafíos y repetir todo en modo Experto alarga muchísimo la vida del juego. PD: Do a barrel roll!",
+    resena: "Definitivamente es un juegazo. Y para los que dicen que es muy corto tengo algo que decirles: tienen razón lol. La campaña dura unas 2 horas, pero es un juego arcade y el chiste está en la rejugabilidad. Mejorar tu puntuación, conseguir todas las medallas, descubrir las rutas alternas, completar todos los desafíos y repetir todo en modo Experto alarga muchísimo la vida del juego.",
     puntuacion: 9,
     fecha: "2026-07-04"
   },
@@ -89,7 +89,7 @@ const entries = [
     categoria: "escenciales",
     imagen: "assets/img/reaper-rhino-c-4-55d-cx-8.jpg",
     generos: ["Otros"],
-    resena: "Sí, es un Beyblade. Después de ver demasiados videos me convencí de comprar uno. Obviamente no soy muy fan de los colores y unque tengo entendido que no es de los mejores Beyblade que hay, elegí este simplemente porque el rinoceronte es mi animal favorito. Siempre lo traigo conmigo aunque no tengo a nadie con quién jugar lol. PD: Go Shoot! (Let it Rip!)",
+    resena: "Sí, es un Beyblade. Después de ver demasiados videos me convencí de comprar uno. Obviamente no soy muy fan de los colores y unque tengo entendido que no es de los mejores Beyblade que hay, elegí este simplemente porque el rinoceronte es mi animal favorito. Siempre lo traigo conmigo aunque nunca lo he usado lol.",
     puntuacion: 7,
     fecha: "2026-03-19"
   },
@@ -119,7 +119,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/pokemon-firered-11.jpg",
     plataformas: ["switch","gba"],
-    resena: "Nada que no se sepa, es un clásico. Aún conservo mi cartucho de Game Boy Advance, pero no dudé ni un segundo en descargar el port para Switch. Eso sí, esta versión no agrega absolutamente nada nuevo; de hecho, siento que hasta empeora en algunas cosas lol. Aun así, siempre es un gusto volver a Kanto con los primeros 151. PD: Los que no le saben eligen a Charmander, los que le saben a Bulbasaur y los que le sabemos demasiado a Squirtle.",
+    resena: "Nada que no se sepa, es un clásico. Aún conservo mi cartucho de Game Boy Advance, pero no dudé ni un segundo en descargar el port para Switch. Eso sí, esta versión no agrega absolutamente nada nuevo; de hecho, siento que hasta empeora en algunas cosas lol. Aun así, siempre es un gusto volver a Kanto con los primeros 151. Nota: Los que no le saben eligen a Charmander, los que le saben a Bulbasaur y los que le sabemos demasiado a Squirtle.",
     puntuacion: 8.5,
     fecha: "2026-02-27"
   },
@@ -289,7 +289,7 @@ const entries = [
     categoria: "pelicula",
     imagen: "assets/img/weathering-with-you-tenki-no-ko-30.jpg",
     generos: ["Anime","Fantasía","Romance"],
-    resena: "Una locura visual y sonora. No me impactó ni me llegó tanto como en su momento lo hizo Your Name, pero aun así sigue siendo una gran película. Recomendadisima. GRAND ESCAPE ES UN ROLÓN.",
+    resena: "Una locura visual y sonora. No me impactó ni me llegó tanto como en su momento lo hizo Your Name, pero aun así sigue siendo una gran película. Recomendadisima. Nota: Grand Escape es un rolón ptm.",
     puntuacion: 8.5,
     fecha: "2021-12-15"
   }
