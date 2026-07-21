@@ -99,7 +99,7 @@ const entries = [
     categoria: "pelicula",
     imagen: "assets/img/the-drama-9.jpg",
     generos: ["Drama"],
-    resena: "Pues el titulo lo dice todo. No sé cómo hacer una reseña sin hablar del plot twist, porque ocurre muy temprano y prácticamente toda la película gira alrededor de él. Solo diré que las apariencias engañan, que la moral no siempre es blanco o negro y que vale la pena verla sin saber absolutamente nada. Saquen sus propias conclusiones.",
+    resena: "Pues el titulo lo dice todo. No sé cómo opinar de ella sin hablar del plot twist, porque ocurre muy temprano en la película y prácticamente toda la trama gira alrededor de él. Solo dire que de verdad vale la pena verla sin saber absolutamente nada.",
     puntuacion: 4,
     fecha: "2026-07-16"
   },
