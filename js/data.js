@@ -192,5 +192,15 @@ const entries = [
     resena: "No me voy a cansar de decir que es una oportunidad bastante desperdiciada limitar todo el juego a una ciudad tan vacía. El gameplay es bastante entretenido, aunque pierde bastante el lado estratégico y con el tiempo puede volverse repetitivo. La verdad me la pasé bien jugándolo, pero pues lo de siempre: Pokémon quedándose corto.",
     puntuacion: 3,
     fecha: "2025-10-20"
+  },
+  {
+    id: 20,
+    titulo: "Your Name (Kimi no Na wa)",
+    categoria: "pelicula",
+    imagen: "assets/img/your-name-kimi-no-na-wa-20.jpg",
+    generos: ["Fantasía","Romance","Animación"],
+    resena: "Obra maestra. La historia, la animación, el soundtrack, todo es una locura. De esas películas que te dejan pensando un buen rato cuando terminan. No diré nada más. Solo véanla.",
+    puntuacion: 5,
+    fecha: "2017-08-05"
   }
 ];
