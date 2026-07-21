@@ -272,5 +272,15 @@ const entries = [
     resena: "El juego es prácticamente un remake 1:1 del original y, aunque el gameplay sigue funcionando, el apartado visual es una decepción: en lugar de reinventar Sinnoh con un estilo moderno, optaron por la opción más sencilla, que fue prácticamente ponerle una skin en 3D. Lo podría recomendar para alguien que está iniciando en Pokémon, pero para los que ya llevamos rato en la saga, es demasiado skipeable.",
     puntuacion: 2.5,
     fecha: "2022-01-30"
+  },
+  {
+    id: 29,
+    titulo: "Leyendas Pokémon: Arceus",
+    categoria: "videojuego",
+    imagen: "assets/img/leyendas-pokemon-arceus-29.jpg",
+    plataformas: ["switch"],
+    resena: "Hasta que por fin se atrevieron a cambiar (un poco) la fórmula de Pokémon. La exploración de un \"mundo abierto\" da una experiencia diferente a los juegos tradicionales y, para mí, fue un cambio muy necesario. El estilo de arte me gusta mucho, aunque es imposible ignorar que el apartado gráfico en ocasiones vuelve a dejar mucho que desear. Aun así, es de las mejores y más divertidas ideas que ha tenido Pokémon en años.",
+    puntuacion: 3.5,
+    fecha: "2022-01-28"
   }
 ];
