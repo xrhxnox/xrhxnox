@@ -252,5 +252,15 @@ const entries = [
     resena: "De los juegos más divertidos que he jugado en muchisimo tiempo. El gameplay es una pasada y la exploración hace que siempre quieras seguir avanzando para ver qué encuentras. Además, el soundtrack está buenísimo. Todo el rato estuve con una sensacion de nostalgia, era como volver a jugar por primera vez a los plataformas de mi infancia. GOTY OF THE YEAR DEL AÑO.",
     puntuacion: 5,
     fecha: "2025-07-25"
+  },
+  {
+    id: 27,
+    titulo: "Pokémon Sword",
+    categoria: "videojuego",
+    imagen: "assets/img/pokemon-sword-27.jpg",
+    plataformas: ["switch"],
+    resena: "Me pareció un juego bastante mediocre, y creo que eso resume perfectamente mi opinión. Como el primer Pokémon principal en una consola de sobremesa, esperaba muchísimo más en gráficos, innovación y ambición. Aun así, el gameplay sigue siendo tan divertido como siempre y la verdad el soundtrack está lleno de temazos lol. Al final terminé disfrutándolo, pero no dejo de sentir que pudo haber sido muchísimo mejor.",
+    puntuacion: 3,
+    fecha: "2019-11-30"
   }
 ];
