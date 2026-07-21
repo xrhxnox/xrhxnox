@@ -198,7 +198,7 @@ const entries = [
     titulo: "Your Name (Kimi no Na wa)",
     categoria: "pelicula",
     imagen: "assets/img/your-name-kimi-no-na-wa-20.jpg",
-    generos: ["Fantasía","Romance","Animación"],
+    generos: ["Anime", "Fantasía","Romance"],
     resena: "Obra maestra. La historia, la animación, el soundtrack, todo es excelente. No diré nada más. Solo véanla.",
     puntuacion: 10,
     fecha: "2017-08-05"
