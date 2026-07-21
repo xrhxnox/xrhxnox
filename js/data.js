@@ -202,5 +202,15 @@ const entries = [
     resena: "Obra maestra. La historia, la animación, el soundtrack, todo es una locura. No diré nada más. Solo véanla.",
     puntuacion: 5,
     fecha: "2017-08-05"
+  },
+  {
+    id: 21,
+    titulo: "Beats Pill - Negro Mate",
+    categoria: "escenciales",
+    imagen: "assets/img/beats-pill-negro-mate-21.jpg",
+    generos: ["Gadgets"],
+    resena: "Me sorprendió bastante. Para el tamaño que tiene, suena muy bien, la batería dura bastante y además es resistente al agua. Obviamente no reemplaza una bocina grande, pero para el día a día, viajes o reuniones pequeñas cumple muy bien. Por el precio en que la conseguí (poco menos de $2,000), creo que es una opción que vale mucho la pena.",
+    puntuacion: 4,
+    fecha: "2025-03-13"
   }
 ];
