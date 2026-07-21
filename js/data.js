@@ -49,7 +49,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/animal-crossing-new-horizons-4.png",
     plataformas: ["switch","switch2"],
-    resena: "Es el mejor juego de la historia, punto. Ya en serio, esta cosa salió al inicio de la pandemia y despues de haberle metido alrededor de 1000 horas, todavía no me lo he \"terminado\". Es absurdamente adictivo. La verdad ya no juego tanto como antes, pero de vez en cuando me dan semanas de entrar diario y hacer actividades en la isla. PD: La actualización para Switch 2 añadió resolución 4K. No es un cambio enorme, pero se agradece.",
+    resena: "Es el mejor juego de la puta historia, punto. Ya en serio, esta cosa salió a inicios de pandemia y despues de haberle metido alrededor de 1000 horas, todavía no me lo he \"terminado\". Es absurdamente adictivo. La verdad ya no juego tanto como antes, pero de vez en cuando me dan semanas de entrar diario y hacer actividades en la isla. PD: La actualización para Switch 2 añadió resolución 4K. No es un cambio enorme, pero se agradece.",
     puntuacion: 5,
     fecha: "2020-04-20"
   },
@@ -109,7 +109,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/pikmin-4-10.jpg",
     plataformas: ["switch"],
-    resena: "Siempre quise probar un Pikmin, pero me daba flojera empezar. Al final Pikmin 4 me sorprendió. Le metí 40 horas para sacar el 100% (modo normal) y nunca se me hizo aburrido; a lo mucho, un poco lento por momentos. La exploración de las áreas, las cuevas, las misiones de noche, las batallas Dandori y el postgame hacen que haya mucho por hacer. Me pareció un gran juego para pasar el rato. PD: Estan rotisimos los Pikmin de hielo.",
+    resena: "Siempre quise probar un Pikmin, pero me daba flojera empezar. Al final Pikmin 4 me sorprendió. Le metí 40 horas para sacar el 100% (modo normal) y nunca se me hizo aburrido; a lo mucho, un poco lento por momentos. La exploración de las áreas, las cuevas, las misiones de noche, las batallas y el postgame hacen que haya mucho por hacer. Me pareció un gran juego para pasar el rato.",
     puntuacion: 4,
     fecha: "2026-07-13"
   },
@@ -149,7 +149,7 @@ const entries = [
     categoria: "videojuego",
     imagen: "assets/img/metroid-dread-15.jpg",
     plataformas: ["switch"],
-    resena: "Top 5 de mis juegos favoritos de la consola, sin duda. Nunca había jugado un Metroid 2D completo y este me dejó con ganas de jugar toda la saga. De verdad es una pinche joya. El gameplay, la exploración, los jefes y la tensión que se siente cada vez que te encuentras con un E.M.M.I. hacen que sea una locura de juego. 100% recomendado alv. SEIS ESTRELLAS",
+    resena: "Top 5 de mis juegos favoritos de la consola, sin duda. Nunca había jugado un Metroid 2D completo y este me dejó con ganas de jugar toda la saga. De verdad es una pinche joya. El gameplay, la exploración, los jefes y la tensión que se siente cada vez que te encuentras con un E.M.M.I. hacen que sea una locura de juego. 100% recomendado alv.",
     puntuacion: 5,
     fecha: "2021-11-20"
   },
@@ -199,7 +199,7 @@ const entries = [
     categoria: "pelicula",
     imagen: "assets/img/your-name-kimi-no-na-wa-20.jpg",
     generos: ["Fantasía","Romance","Animación"],
-    resena: "Obra maestra. La historia, la animación, el soundtrack, todo es una locura. No diré nada más. Solo véanla.",
+    resena: "Obra maestra. La historia, la animación, el soundtrack, todo es excelente. No diré nada más. Solo véanla.",
     puntuacion: 5,
     fecha: "2017-08-05"
   },
@@ -209,7 +209,7 @@ const entries = [
     categoria: "escenciales",
     imagen: "assets/img/beats-pill-negro-mate-21.jpg",
     generos: ["Gadgets"],
-    resena: "Me sorprendió bastante. Para el tamaño que tiene, suena muy bien, la batería dura bastante y además es resistente al agua. Obviamente no reemplaza una bocina grande, pero para el día a día, viajes o reuniones pequeñas cumple muy bien. Por el precio en que la conseguí (poco menos de $2,000), creo que es una opción que vale mucho la pena.",
+    resena: "Justo lo que buscaba. Para el tamaño que tiene, suena muy bien, la batería dura bastante y además es resistente al agua. Obviamente no reemplaza una bocina grande, pero para el día a día, viajes o reuniones pequeñas cumple muy bien. Por el precio en que la conseguí (poco menos de $2,000), creo que es una opción que vale mucho la pena.",
     puntuacion: 4,
     fecha: "2025-03-13"
   },
@@ -229,7 +229,7 @@ const entries = [
     categoria: "escenciales",
     imagen: "assets/img/think-tank-photo-shape-shifter-24.jpg",
     generos: ["Otros"],
-    resena: "Me la gané en un giveaway y terminó convirtiéndose en mi mochila de viajes. Aunque está pensada para cámaras, tiene muchísimo espacio, materiales de gran calidad y un montón de compartimientos que sirven para organizar de todo. Lo que más me gusta es la protección que ofrece al equipo; transmite mucha confianza al llevar cosas delicadas. Excelente mochila.",
+    resena: "Me la gané en un giveaway y terminó convirtiéndose en mi mochila de viajes. Aunque está pensada principalmente para cámaras, tiene muchísimo espacio, materiales de gran calidad y un montón de compartimientos que sirven para organizar de todo.",
     puntuacion: 4.5,
     fecha: "2020-12-10"
   },
