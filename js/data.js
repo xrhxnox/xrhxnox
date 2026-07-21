@@ -199,7 +199,7 @@ const entries = [
     categoria: "pelicula",
     imagen: "assets/img/your-name-kimi-no-na-wa-20.jpg",
     generos: ["Fantasía","Romance","Animación"],
-    resena: "Obra maestra. La historia, la animación, el soundtrack, todo es una locura. De esas películas que te dejan pensando un buen rato cuando terminan. No diré nada más. Solo véanla.",
+    resena: "Obra maestra. La historia, la animación, el soundtrack, todo es una locura. No diré nada más. Solo véanla.",
     puntuacion: 5,
     fecha: "2017-08-05"
   }
