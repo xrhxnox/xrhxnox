@@ -165,7 +165,7 @@ const entries = [
   },
   {
     id: 17,
-    titulo: "Beats Solo Buds - Negro",
+    titulo: "Beats Solo Buds - Negro Mate",
     categoria: "escenciales",
     imagen: "assets/img/beats-solo-buds-negro-17.jpg",
     generos: ["Gadgets"],
