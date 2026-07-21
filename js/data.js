@@ -232,5 +232,15 @@ const entries = [
     resena: "Me la gané en un giveaway y terminó convirtiéndose en mi mochila de viajes. Aunque está pensada para cámaras, tiene muchísimo espacio, materiales de gran calidad y un montón de compartimientos que sirven para organizar de todo. Lo que más me gusta es la protección que ofrece al equipo; transmite mucha confianza al llevar cosas delicadas. Excelente mochila.",
     puntuacion: 4.5,
     fecha: "2020-12-10"
+  },
+  {
+    id: 25,
+    titulo: "The Legend of Zelda: Breath of the Wild",
+    categoria: "videojuego",
+    imagen: "assets/img/the-legend-of-zelda-breath-of-the-wild-25.jpg",
+    plataformas: ["wiiu","switch","switch2"],
+    resena: "Lo jugué en Wii U, lo jugué en Nintendo Switch y ahora en Switch 2, y este juego siempre logra sorprenderme. La libertad, la exploración y la forma en que el mundo te invita a descubrir cosas por tu cuenta hacen que cada partida sea diferente. La versión de Switch 2 añade mejoras gráficas y de rendimiento que hacen que la experiencia sea todavía mejor, pero de verdad, las 3 versiones del juego son perfectas. Sin duda, una obra maestra.",
+    puntuacion: 5,
+    fecha: "2025-08-01"
   }
 ];
