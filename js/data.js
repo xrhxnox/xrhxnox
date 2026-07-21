@@ -198,7 +198,7 @@ const entries = [
     titulo: "Your Name (Kimi no Na wa)",
     categoria: "pelicula",
     imagen: "assets/img/your-name-kimi-no-na-wa-20.jpg",
-    generos: ["Anime", "Fantasía","Romance"],
+    generos: ["Anime","Fantasía","Romance"],
     resena: "Obra maestra. La historia, la animación, el soundtrack, todo es excelente. No diré nada más. Solo véanla.",
     puntuacion: 10,
     fecha: "2017-08-05"
@@ -282,5 +282,15 @@ const entries = [
     resena: "Hasta que por fin se atrevieron a cambiar (un poco) la fórmula de Pokémon. La exploración de un \"mundo abierto\" da una experiencia diferente a los juegos tradicionales y, para mí, fue un cambio muy necesario. El estilo de arte me gusta mucho, aunque es imposible ignorar que el apartado gráfico en ocasiones vuelve a dejar mucho que desear. Aun así, es de las mejores y más divertidas ideas que ha tenido Pokémon en años.",
     puntuacion: 8,
     fecha: "2022-01-28"
+  },
+  {
+    id: 30,
+    titulo: "Weathering with You (Tenki no Ko)",
+    categoria: "pelicula",
+    imagen: "assets/img/weathering-with-you-tenki-no-ko-30.jpg",
+    generos: ["Anime","Fantasía","Romance"],
+    resena: "Una locura visual y sonora. No me impactó ni me llegó tanto como Your Name, pero aun así sigue siendo una gran película. Recomendadisima. GRAND ESCAPE ES UN ROLÓN.",
+    puntuacion: 8.5,
+    fecha: "2021-12-15"
   }
 ];
