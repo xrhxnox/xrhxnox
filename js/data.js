@@ -320,6 +320,6 @@ const entries = [
     plataformas: ["switch"],
     resena: "Es básicamente un remake de Pokémon Yellow, así que estamos de vuelta en Kanto. El apartado visual me parece de lo mejor que ha tenido Pokémon. El sistema de captura inspirado en Pokémon GO es lo más flojo; quitar los combates contra Pokémon salvajes y dejar los combates únicamente contra entrenadores y líderes de gimnasio le resta mucho a la experiencia. Aun así, creo que es un buen juego tanto para nostálgicos como para nuevos jugadores.",
     puntuacion: 8,
-    fecha: "2026-07-21"
+    fecha: "2020-02-20"
   }
 ];
