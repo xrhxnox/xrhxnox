@@ -301,5 +301,15 @@ const entries = [
     resena: "Aunque prácticamente la vi completa, creo que ha sido la más aburrida de las 3. Sentí que pasaban muy pocas cosas y los \"conflictos\" se me hicieron bastante meh. En cuanto a los participantes, la verdad, ni a quién irle: el Team Día jamás supo de qué trataba el juego y el Team Noche era un somnífero lol. Esperemos que la próxima sea mejor y que el público no termine arruinándola como pasó con esta.",
     puntuacion: 7,
     fecha: "2025-10-06"
+  },
+  {
+    id: 32,
+    titulo: "Fire Emblem Engange",
+    categoria: "videojuego",
+    imagen: "assets/img/fire-emblem-engange-32.jpg",
+    plataformas: ["switch"],
+    resena: "Nunca había jugado un Fire Emblem y creo que Engage fue una gran introducción a la saga. La historia es bastante genérica y probablemente lo más flojo del juego, pero lo más importante, que es el gameplay, es excelente; el combate estratégico es de lo mejor que he jugado y cuenta con una muy buena dificultad.",
+    puntuacion: 8,
+    fecha: "2023-03-05"
   }
 ];
