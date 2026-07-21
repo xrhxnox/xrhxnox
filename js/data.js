@@ -289,7 +289,7 @@ const entries = [
     categoria: "pelicula",
     imagen: "assets/img/weathering-with-you-tenki-no-ko-30.jpg",
     generos: ["Anime","Fantasía","Romance"],
-    resena: "Una locura visual y sonora. No me impactó ni me llegó tanto como Your Name, pero aun así sigue siendo una gran película. Recomendadisima. GRAND ESCAPE ES UN ROLÓN.",
+    resena: "Una locura visual y sonora. No me impactó ni me llegó tanto como en su momento lo hizo Your Name, pero aun así sigue siendo una gran película. Recomendadisima. GRAND ESCAPE ES UN ROLÓN.",
     puntuacion: 8.5,
     fecha: "2021-12-15"
   }
