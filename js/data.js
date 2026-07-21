@@ -242,5 +242,15 @@ const entries = [
     resena: "Lo jugué en Wii U, lo jugué en Nintendo Switch y ahora en Switch 2, y este juego siempre logra sorprenderme. La libertad, la exploración y la forma en que el mundo te invita a descubrir cosas por tu cuenta hacen que cada partida sea diferente. La versión de Switch 2 añade mejoras gráficas y de rendimiento que hacen que la experiencia sea todavía mejor, pero de verdad, las 3 versiones del juego son perfectas. Sin duda, una obra maestra.",
     puntuacion: 5,
     fecha: "2025-08-01"
+  },
+  {
+    id: 26,
+    titulo: "Donkey Kong Bananza",
+    categoria: "videojuego",
+    imagen: "assets/img/donkey-kong-bananza-26.jpg",
+    plataformas: ["switch2"],
+    resena: "De los juegos más divertidos que he jugado en muchisimo tiempo. El gameplay es una pasada y la exploración hace que siempre quieras seguir avanzando para ver qué encuentras. Además, el soundtrack está buenísimo. Todo el rato estuve con una sensacion de nostalgia, era como volver a jugar por primera vez a los plataformas de mi infancia. GOTY OF THE YEAR DEL AÑO.",
+    puntuacion: 5,
+    fecha: "2025-07-25"
   }
 ];
