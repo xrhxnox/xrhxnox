@@ -262,5 +262,15 @@ const entries = [
     resena: "Me pareció un juego bastante mediocre, y creo que eso resume perfectamente mi opinión. Como el primer Pokémon principal en una consola de sobremesa, esperaba muchísimo más en gráficos, innovación y ambición. Aun así, el gameplay sigue siendo tan divertido como siempre y la verdad el soundtrack está lleno de temazos lol. Al final terminé disfrutándolo, pero no dejo de sentir que pudo haber sido muchísimo mejor.",
     puntuacion: 3,
     fecha: "2019-11-30"
+  },
+  {
+    id: 28,
+    titulo: "Pokémon Brilliant Diamond",
+    categoria: "videojuego",
+    imagen: "assets/img/pokemon-brilliant-diamond-28.jpg",
+    plataformas: ["switch"],
+    resena: "El juego es prácticamente un remake 1:1 del original y, aunque el gameplay sigue funcionando, el apartado visual es una decepción: en lugar de reinventar Sinnoh con un estilo moderno, optaron por la opción más sencilla, que fue prácticamente ponerle una skin en 3D. Lo podría recomendar para alguien que está iniciando en Pokémon, pero para los que ya llevamos rato en la saga, es demasiado skipeable.",
+    puntuacion: 2.5,
+    fecha: "2022-01-30"
   }
 ];
