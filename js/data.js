@@ -270,7 +270,7 @@ const entries = [
     imagen: "assets/img/pokemon-brilliant-diamond-28.jpg",
     plataformas: ["switch"],
     resena: "El juego es prácticamente un remake 1:1 del original y, aunque el gameplay sigue funcionando, el apartado visual es una decepción: en lugar de reinventar Sinnoh con un estilo moderno, optaron por la opción más sencilla, que fue prácticamente ponerle una skin en 3D. Lo podría recomendar para alguien que está iniciando en Pokémon, pero para los que ya llevamos rato en la saga, es demasiado skipeable.",
-    puntuacion: 2.5,
+    puntuacion: 1.5,
     fecha: "2022-01-30"
   },
   {
