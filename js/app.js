@@ -5,7 +5,7 @@ const yearSelect = document.getElementById("year");
 const searchInput = document.getElementById("searchInput");
 const pagination = document.getElementById("pagination");
 
-const PAGE_SIZE = 9;
+const PAGE_SIZE = 15;
 
 let activeFilter = "todos";
 let activeYear = "todos";
