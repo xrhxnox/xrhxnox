@@ -222,5 +222,15 @@ const entries = [
     resena: "La sucesora de, en mi opinión, la mejor consola de Nintendo. La mejora en hardware y software se nota muchísimo. Principalmente la uso en modo portátil; siendo sinceros, la batería podría durar un poco más, aunque nunca me ha representado un gran problema. No puedo esperar a ver todos los juegos que llegarán en los próximos años. Si Nintendo mantiene el nivel de sus first party, tiene todo para convertirse en la mejor consola de la historia.",
     puntuacion: 5,
     fecha: "2025-06-25"
+  },
+  {
+    id: 24,
+    titulo: "Think Tank Photo Shape Shifter",
+    categoria: "escenciales",
+    imagen: "assets/img/think-tank-photo-shape-shifter-24.jpg",
+    generos: ["Otros"],
+    resena: "Me la gané en un giveaway y terminó convirtiéndose en mi mochila de viajes. Aunque está pensada para cámaras, tiene muchísimo espacio, materiales de gran calidad y un montón de compartimientos que sirven para organizar de todo. Lo que más me gusta es la protección que ofrece al equipo; transmite mucha confianza al llevar cosas delicadas. Excelente mochila.",
+    puntuacion: 4.5,
+    fecha: "2020-12-10"
   }
 ];
