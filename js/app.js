@@ -55,7 +55,7 @@ function cardMarkup(entry) {
       <div class="title-bar">${entry.titulo}</div>
       <div class="overlay">
         <div class="overlay-title">${entry.titulo}</div>
-        <div class="stars" aria-label="Puntuación ${entry.puntuacion} de 5">${starsMarkup(entry.puntuacion)}</div>
+        <div class="stars" aria-label="Puntuación ${entry.puntuacion} de 10">${starsMarkup(entry.puntuacion)}</div>
         ${entry.resena ? `<div class="resena">${entry.resena}</div>` : ""}
         ${fechaLegible ? `<div class="fecha">${DATE_LABEL_BY_CATEGORY[entry.categoria] || "Publicado el"} ${fechaLegible}</div>` : ""}
       </div>
