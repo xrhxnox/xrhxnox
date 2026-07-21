@@ -309,7 +309,7 @@ const entries = [
     imagen: "assets/img/fire-emblem-engange-32.jpg",
     plataformas: ["switch"],
     resena: "Nunca había jugado un Fire Emblem y creo que Engage fue una gran introducción a la saga. La historia es bastante genérica y probablemente lo más flojo del juego, pero lo más importante, que es el gameplay, es excelente; el combate estratégico es de lo mejor que he jugado y cuenta con una muy buena dificultad.",
-    puntuacion: 8,
+    puntuacion: 7.5,
     fecha: "2023-03-05"
   }
 ];
