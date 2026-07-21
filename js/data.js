@@ -222,5 +222,15 @@ const entries = [
     resena: "La sucesora de, en mi opinión, la mejor consola de Nintendo. La mejora en hardware y software se nota muchísimo. Principalmente la uso en modo portátil; siendo sinceros, la batería podría durar un poco más, aunque nunca me ha representado un gran problema. No puedo esperar a ver todos los juegos que llegarán en los próximos años. Si Nintendo mantiene el nivel de sus first party, tiene todo para convertirse en la mejor consola de la historia.",
     puntuacion: 5,
     fecha: "2025-02-25"
+  },
+  {
+    id: 23,
+    titulo: "Nintendo Switch 2",
+    categoria: "escenciales",
+    imagen: "assets/img/nintendo-switch-2-23.jpg",
+    generos: ["Gadgets"],
+    resena: "La sucesora de, en mi opinión, la mejor consola de Nintendo. La mejora en hardware y software se nota muchísimo. Principalmente la uso en modo portátil; siendo sinceros, la batería podría durar un poco más, aunque nunca me ha representado un gran problema. No puedo esperar a ver todos los juegos que llegarán en los próximos años. Si Nintendo mantiene el nivel de sus first party, tiene todo para convertirse en la mejor consola de la historia.",
+    puntuacion: 5,
+    fecha: "2025-02-25"
   }
 ];
