@@ -292,5 +292,14 @@ const entries = [
     resena: "Una locura visual y sonora. No me impactó ni me llegó tanto como en su momento lo hizo Your Name, pero aun así sigue siendo una excelente película. Recomendadisima. Nota: Grand Escape es un rolón ptm.",
     puntuacion: 9,
     fecha: "2021-12-15"
+  },
+  {
+    id: 31,
+    titulo: "La Casa de los Famosos México - Tercera Temporada",
+    categoria: "trash-tv",
+    imagen: "assets/img/la-casa-de-los-famosos-mexico-tercera-temporada-31.jpg",
+    resena: "Aunque prácticamente la vi completa, creo que ha sido la más aburrida de las 3. Sentí que pasaban muy pocas cosas y los \"conflictos\" se me hicieron bastante meh. En cuanto a los participantes, la verdad, ni a quién irle: el Team Día jamás supo de qué trataba el juego y el Team Noche era un somnífero lol. Esperemos que la próxima sea mejor y que el público no termine arruinándola como pasó con esta.",
+    puntuacion: 7,
+    fecha: "2025-10-06"
   }
 ];
