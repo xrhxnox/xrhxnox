@@ -185,7 +185,7 @@ const entries = [
   },
   {
     id: 19,
-    titulo: "Pokémon Legends ZA",
+    titulo: "Pokémon Legends: Z-A",
     categoria: "videojuego",
     imagen: "assets/img/pokemon-legends-za-19.jpg",
     plataformas: ["switch","switch2"],
@@ -275,7 +275,7 @@ const entries = [
   },
   {
     id: 29,
-    titulo: "Leyendas Pokémon: Arceus",
+    titulo: "Pokémon Legends: Arceus",
     categoria: "videojuego",
     imagen: "assets/img/leyendas-pokemon-arceus-29.jpg",
     plataformas: ["switch"],
