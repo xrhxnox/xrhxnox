@@ -311,5 +311,15 @@ const entries = [
     resena: "Nunca había jugado un Fire Emblem y creo que Engage fue una gran introducción a la saga. La historia es bastante genérica y probablemente lo más flojo del juego, pero lo más importante, que es el gameplay, es excelente; el combate estratégico es de lo mejor que he jugado y cuenta con una muy buena dificultad.",
     puntuacion: 7.5,
     fecha: "2023-03-05"
+  },
+  {
+    id: 33,
+    titulo: "Pokémon Let's Go, Pikachu!",
+    categoria: "videojuego",
+    imagen: "assets/img/pokemon-let-s-go-pikachu-33.jpg",
+    plataformas: ["switch"],
+    resena: "Es básicamente un remake de Pokémon Yellow, así que estamos de vuelta en Kanto. El apartado visual me parece de lo mejor que ha tenido Pokémon. El sistema de captura inspirado en Pokémon GO es lo más flojo; quitar los combates contra Pokémon salvajes y dejar los combates únicamente contra entrenadores y líderes de gimnasio le resta mucho a la experiencia. Aun así, creo que es un buen juego tanto para nostálgicos como para nuevos jugadores.",
+    puntuacion: 8,
+    fecha: "2026-07-21"
   }
 ];
