@@ -212,5 +212,15 @@ const entries = [
     resena: "Me sorprendió bastante. Para el tamaño que tiene, suena muy bien, la batería dura bastante y además es resistente al agua. Obviamente no reemplaza una bocina grande, pero para el día a día, viajes o reuniones pequeñas cumple muy bien. Por el precio en que la conseguí (poco menos de $2,000), creo que es una opción que vale mucho la pena.",
     puntuacion: 4,
     fecha: "2025-03-13"
+  },
+  {
+    id: 22,
+    titulo: "Nintendo Switch 2",
+    categoria: "escenciales",
+    imagen: "assets/img/nintendo-switch-2-22.jpg",
+    generos: ["Gadgets"],
+    resena: "La sucesora de, en mi opinión, la mejor consola de Nintendo. La mejora en hardware y software se nota muchísimo. Principalmente la uso en modo portátil; siendo sinceros, la batería podría durar un poco más, aunque nunca me ha representado un gran problema. No puedo esperar a ver todos los juegos que llegarán en los próximos años. Si Nintendo mantiene el nivel de sus first party, tiene todo para convertirse en la mejor consola de la historia.",
+    puntuacion: 5,
+    fecha: "2025-02-25"
   }
 ];
