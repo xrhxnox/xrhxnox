@@ -297,9 +297,9 @@ main {
 
 .controls {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 16px;
   margin-bottom: 32px;
 }
@@ -307,6 +307,7 @@ main {
 .filters {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 6px;
 }
 
@@ -918,16 +919,6 @@ main {
 }
 
 @media (max-width: 640px) {
-  .controls {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .filters {
-    justify-content: center;
-  }
-  .year-select {
-    justify-content: center;
-  }
   .search-bar {
     max-width: none;
     margin-left: auto;
