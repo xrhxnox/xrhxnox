@@ -376,6 +376,16 @@ main {
   box-shadow: 0 0 0 2px var(--accent);
 }
 
+.filter-btn[data-filter="anime"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-anime); }
+.filter-btn[data-filter="escenciales"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-escenciales); }
+.filter-btn[data-filter="deportes"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-deportes); }
+.filter-btn[data-filter="libro"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-libro); }
+.filter-btn[data-filter="musica"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-musica); }
+.filter-btn[data-filter="pelicula"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-pelicula); }
+.filter-btn[data-filter="serie"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-serie); }
+.filter-btn[data-filter="trash-tv"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-trash-tv); }
+.filter-btn[data-filter="videojuego"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-videojuego); }
+
 .year-select {
   display: flex;
   align-items: center;
