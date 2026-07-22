@@ -328,7 +328,7 @@ const entries = [
     categoria: "trash-tv",
     imagen: "assets/img/la-casa-de-los-famosos-mexico-segunda-temporada-34.jpg",
     resena: "Es increíble lo enganchado que me tuvo esto por 10 semanas. Y, en gran medida, se debe a los detestables integrantes del Cuarto Tierra y al papel que jugaron en la temporada: fueron los principales responsables de gran parte de los conflictos de la casa y, con lo alterada que tenían la realidad, no me imagino cómo habría sido el programa sin ellos lol. Televisión basura en su máxima expresión. PD: para mí debió ganar Karime equisde.",
-    puntuacion: 8,
+    puntuacion: 9,
     fecha: "2024-09-29"
   }
 ];
