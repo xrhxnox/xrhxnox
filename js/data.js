@@ -321,5 +321,14 @@ const entries = [
     resena: "Es básicamente un remake de Pokémon Yellow, así que estamos de vuelta en Kanto. El apartado visual me parece de lo mejor que ha tenido Pokémon. El sistema de captura inspirado en Pokémon GO es lo más flojo; quitar los combates contra Pokémon salvajes y dejar los combates únicamente contra entrenadores y líderes de gimnasio le resta mucho a la experiencia. Aun así, creo que es un buen juego tanto para nostálgicos como para nuevos jugadores.",
     puntuacion: 8,
     fecha: "2020-02-20"
+  },
+  {
+    id: 34,
+    titulo: "La Casa de los Famosos México - Segunda Temporada",
+    categoria: "trash-tv",
+    imagen: "assets/img/la-casa-de-los-famosos-mexico-segunda-temporada-34.jpg",
+    resena: "Es increíble lo enganchado que me tuvo esto por 10 semanas. Y, en gran medida, se debe a los detestables integrantes del Cuarto Tierra y al papel que jugaron en la temporada: fueron los principales responsables de gran parte de los conflictos de la casa y, con lo alterada que tenían la realidad, no me imagino cómo habría sido el programa sin ellos lol. Televisión basura en su máxima expresión. PD: para mí debió ganar Karime equisde.",
+    puntuacion: 8,
+    fecha: "2024-09-29"
   }
 ];
