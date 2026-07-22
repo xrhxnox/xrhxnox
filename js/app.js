@@ -2,6 +2,7 @@ const grid = document.getElementById("grid");
 const emptyState = document.getElementById("emptyState");
 const filterButtons = document.querySelectorAll(".filter-btn");
 const yearSelect = document.getElementById("year");
+const sortSelect = document.getElementById("sortSelect");
 const searchInput = document.getElementById("searchInput");
 const pagination = document.getElementById("pagination");
 
@@ -10,6 +11,7 @@ const PAGE_SIZE = 15;
 let activeFilter = "todos";
 let activeYear = "todos";
 let activeSearch = "";
+let activeSort = "fecha";
 let currentPage = 1;
 
 function metaTagsMarkup(entry) {
@@ -97,7 +99,11 @@ function render() {
     return matchCat && matchYear && matchSearch;
   });
 
-  filtered.sort((a, b) => (b.fecha || "").localeCompare(a.fecha || ""));
+  if (activeSort === "rating") {
+    filtered.sort((a, b) => b.puntuacion - a.puntuacion || (b.fecha || "").localeCompare(a.fecha || ""));
+  } else {
+    filtered.sort((a, b) => (b.fecha || "").localeCompare(a.fecha || ""));
+  }
 
   const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
   currentPage = Math.min(currentPage, totalPages);
@@ -120,6 +126,12 @@ filterButtons.forEach(btn => {
 
 yearSelect.addEventListener("change", () => {
   activeYear = yearSelect.value;
+  currentPage = 1;
+  render();
+});
+
+sortSelect.addEventListener("change", () => {
+  activeSort = sortSelect.value;
   currentPage = 1;
   render();
 });

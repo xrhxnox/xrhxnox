@@ -52,20 +52,28 @@
     <div class="controls">
       <div class="filters" id="filters">
         <button class="filter-btn active" data-filter="todos"><span class="filter-icon"><i class="fa-solid fa-circle-check"></i></span><span class="filter-label">Todos</span></button>
-        <button class="filter-btn" data-filter="anime"><span class="filter-icon"><i class="fa-solid fa-dragon"></i></span><span class="filter-label">Anime</span></button>
         <button class="filter-btn" data-filter="pelicula"><span class="filter-icon"><i class="fa-solid fa-clapperboard"></i></span><span class="filter-label">Películas</span></button>
         <button class="filter-btn" data-filter="serie"><span class="filter-icon"><i class="fa-solid fa-tv"></i></span><span class="filter-label">Series</span></button>
+                <button class="filter-btn" data-filter="anime"><span class="filter-icon"><i class="fa-brands fa-bilibili"></i></span><span class="filter-label">Anime</span></button>
         <button class="filter-btn" data-filter="trash-tv"><span class="filter-icon"><i class="fa-solid fa-trash"></i></span><span class="filter-label">Trash TV</span></button>
         <button class="filter-btn" data-filter="videojuego"><span class="filter-icon"><i class="fa-solid fa-gamepad"></i></span><span class="filter-label">Videojuegos</span></button>
         <button class="filter-btn" data-filter="libro"><span class="filter-icon"><i class="fa-solid fa-book"></i></span><span class="filter-label">Libros</span></button>
-        <button class="filter-btn" data-filter="musica"><span class="filter-icon"><i class="fa-solid fa-music"></i></span><span class="filter-label">Música</span></button>
+        <button class="filter-btn" data-filter="musica"><span class="filter-icon"><i class="fa-brands fa-itunes-note"></i></span><span class="filter-label">Música</span></button>
         <button class="filter-btn" data-filter="deportes"><span class="filter-icon"><i class="fa-solid fa-trophy"></i></span><span class="filter-label">Deportes</span></button>
-        <button class="filter-btn" data-filter="escenciales"><span class="filter-icon"><i class="fa-solid fa-star"></i></span><span class="filter-label">Escenciales</span></button>
+        <button class="filter-btn" data-filter="escenciales"><span class="filter-icon"><i class="fa-solid fa-heart"></i></span><span class="filter-label">Escenciales</span></button>
       </div>
 
       <div class="year-select">
         <label for="year">Año</label>
         <select id="year"></select>
+      </div>
+
+      <div class="year-select">
+        <label for="sortSelect">Ordenar</label>
+        <select id="sortSelect">
+          <option value="fecha">Más reciente</option>
+          <option value="rating">Mejor calificado</option>
+        </select>
       </div>
     </div>
 
