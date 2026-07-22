@@ -19,7 +19,7 @@ const CATEGORY_ICONS = {
   libro: "fa-solid fa-book",
   musica: "fa-solid fa-music",
   deportes: "fa-solid fa-trophy",
-  escenciales: "fa-solid fa-star"
+  escenciales: "fa-solid fa-heart"
 };
 
 const DATE_LABEL_BY_CATEGORY = {
@@ -134,6 +134,15 @@ const GENRE_COLORS = {
 const MUSIC_TYPE_LABELS = {
   album: "Álbum",
   cancion: "Canción"
+};
+
+// Color de texto por defecto para las etiquetas de género de cada
+// categoría (cuando no hay un color específico en GENRE_COLORS).
+// Por defecto es oscuro; las categorías con un color de fondo muy
+// saturado necesitan texto blanco para verse legibles.
+const CATEGORY_TAG_TEXT = {
+  serie: "#ffffff",
+  escenciales: "#ffffff"
 };
 
 // Orden cronológico aproximado de lanzamiento, de más antigua a más nueva.

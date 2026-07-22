@@ -27,13 +27,14 @@ function metaTagsMarkup(entry) {
   }
   if ((entry.generos && entry.generos.length) || entry.tipo) {
     const defaultColor = `var(--cat-${entry.categoria})`;
+    const defaultText = CATEGORY_TAG_TEXT[entry.categoria] || "#1f1f1e";
     const tipoTag = entry.tipo
-      ? `<span class="platform-tag" style="--platform-color:${defaultColor};--platform-text:#1f1f1e">${MUSIC_TYPE_LABELS[entry.tipo] || entry.tipo}</span>`
+      ? `<span class="platform-tag" style="--platform-color:${defaultColor};--platform-text:${defaultText}">${MUSIC_TYPE_LABELS[entry.tipo] || entry.tipo}</span>`
       : "";
     const genreTags = (entry.generos || []).map(g => {
       const custom = GENRE_COLORS[entry.categoria] && GENRE_COLORS[entry.categoria][g];
       const bg = custom ? custom.bg : defaultColor;
-      const text = custom ? custom.text : "#1f1f1e";
+      const text = custom ? custom.text : defaultText;
       return `<span class="platform-tag" style="--platform-color:${bg};--platform-text:${text}">${g}</span>`;
     }).join("");
     return `<div class="platform-tags">${tipoTag}${genreTags}</div>`;
