@@ -514,6 +514,7 @@ main {
 
 .overlay .stars {
   display: flex;
+  align-items: center;
   gap: 2px;
   font-size: 1rem;
   letter-spacing: 1px;
@@ -521,6 +522,13 @@ main {
 
 .overlay .stars .filled { color: var(--star); }
 .overlay .stars .empty { color: var(--star-dim); }
+
+.overlay .stars .rating-number {
+  margin-left: 6px;
+  font-size: 0.75rem;
+  letter-spacing: normal;
+  color: var(--overlay-text-dim);
+}
 
 .overlay .resena {
   font-size: 0.8rem;

@@ -3,11 +3,12 @@
 // termines. Este archivo se actualiza automáticamente desde
 // admin.html — también puedes editarlo a mano si prefieres.
 //
-// categoria: "videojuego" | "app" | "libro" | "pelicula" | "serie" |
-//            "trash-tv" | "anime" | "comida" | "otro"
+// categoria: "videojuego" | "pelicula" | "serie" | "anime" | "trash-tv" |
+//            "libro" | "musica" | "deportes" | "escenciales"
 // plataformas: solo para videojuego, lista de claves (ver js/utils.js)
-// generos: solo para libro/pelicula/serie/anime, lista de strings
-// puntuacion: número del 1 al 5 (acepta medios puntos, ej. 3.5)
+// generos: ver GENRE_OPTIONS en js/utils.js (deportes usa nombres de
+//          equipo con color propio, ver GENRE_COLORS)
+// puntuacion: número del 0.5 al 10 (acepta medios puntos, ej. 7.5)
 // imagen: ruta a la portada/carátula (guárdala en assets/img/)
 // fecha: cuándo lo terminaste, formato AAAA-MM-DD
 // ============================================================
@@ -309,7 +310,7 @@ const entries = [
     imagen: "assets/img/fire-emblem-engange-32.jpg",
     plataformas: ["switch"],
     resena: "Nunca había jugado un Fire Emblem y creo que Engage fue una gran introducción a la saga. La historia es bastante genérica y probablemente lo más flojo del juego, pero lo más importante, que es el gameplay, es excelente; el combate estratégico es de lo mejor que he jugado y cuenta con una muy buena dificultad.",
-    puntuacion: 6.5,
+    puntuacion: 8,
     fecha: "2023-03-05"
   },
   {
