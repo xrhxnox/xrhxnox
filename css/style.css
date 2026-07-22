@@ -308,23 +308,47 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 6px;
+  gap: 18px;
 }
 
 .filter-btn {
-  background: transparent;
-  color: var(--text-dim);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  width: 68px;
+  background: none;
   border: none;
-  padding: 7px 14px;
-  border-radius: 999px;
-  font-size: 0.85rem;
+  color: var(--text-dim);
+  padding: 0;
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease;
 }
 
-.filter-btn:hover {
-  color: var(--text);
+.filter-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
   background: var(--surface);
+  font-size: 1.3rem;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+
+.filter-label {
+  font-size: 0.7rem;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.filter-btn:hover .filter-icon {
+  background: var(--surface-hover);
+  transform: translateY(-2px);
+}
+
+.filter-btn:hover .filter-label {
+  color: var(--text);
 }
 
 .filter-btn[data-filter="anime"] i { color: var(--cat-anime); }
@@ -338,9 +362,13 @@ main {
 .filter-btn[data-filter="videojuego"] i { color: var(--cat-videojuego); }
 
 .filter-btn.active {
-  background: var(--surface-hover);
   color: var(--text);
   font-weight: 600;
+}
+
+.filter-btn.active .filter-icon {
+  background: var(--surface-hover);
+  box-shadow: 0 0 0 2px var(--accent);
 }
 
 .year-select {
