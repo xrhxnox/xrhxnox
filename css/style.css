@@ -351,15 +351,20 @@ main {
   color: var(--text);
 }
 
-.filter-btn[data-filter="anime"] i { color: var(--cat-anime); }
-.filter-btn[data-filter="escenciales"] i { color: var(--cat-escenciales); }
-.filter-btn[data-filter="deportes"] i { color: var(--cat-deportes); }
-.filter-btn[data-filter="libro"] i { color: var(--cat-libro); }
-.filter-btn[data-filter="musica"] i { color: var(--cat-musica); }
-.filter-btn[data-filter="pelicula"] i { color: var(--cat-pelicula); }
-.filter-btn[data-filter="serie"] i { color: var(--cat-serie); }
-.filter-btn[data-filter="trash-tv"] i { color: var(--cat-trash-tv); }
-.filter-btn[data-filter="videojuego"] i { color: var(--cat-videojuego); }
+.filter-btn i {
+  color: var(--text-dim);
+  transition: color 0.15s ease;
+}
+
+.filter-btn[data-filter="anime"]:hover i, .filter-btn[data-filter="anime"].active i { color: var(--cat-anime); }
+.filter-btn[data-filter="escenciales"]:hover i, .filter-btn[data-filter="escenciales"].active i { color: var(--cat-escenciales); }
+.filter-btn[data-filter="deportes"]:hover i, .filter-btn[data-filter="deportes"].active i { color: var(--cat-deportes); }
+.filter-btn[data-filter="libro"]:hover i, .filter-btn[data-filter="libro"].active i { color: var(--cat-libro); }
+.filter-btn[data-filter="musica"]:hover i, .filter-btn[data-filter="musica"].active i { color: var(--cat-musica); }
+.filter-btn[data-filter="pelicula"]:hover i, .filter-btn[data-filter="pelicula"].active i { color: var(--cat-pelicula); }
+.filter-btn[data-filter="serie"]:hover i, .filter-btn[data-filter="serie"].active i { color: var(--cat-serie); }
+.filter-btn[data-filter="trash-tv"]:hover i, .filter-btn[data-filter="trash-tv"].active i { color: var(--cat-trash-tv); }
+.filter-btn[data-filter="videojuego"]:hover i, .filter-btn[data-filter="videojuego"].active i { color: var(--cat-videojuego); }
 
 .filter-btn.active {
   color: var(--text);
