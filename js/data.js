@@ -339,7 +339,7 @@ const entries = [
     imagen: "assets/img/masters-of-the-universe-2026-35.jpg",
     generos: ["Acción","Aventura","Ciencia ficción","Fantasía"],
     resena: "La historia está muy sencilla, pero la verdad me la pasé muy bien. Nunca intenta tomarse demasiado en serio y eso le ayuda bastante. La acción y las peleas son lo mejor de la película; siento que están muy bien llevadas. A mitad de la película sí se cae un poco el ritmo, pero al final creo que logra remontar. Si solo quieres apagar el cerebro un rato y entretenerte, cumple de sobra.",
-    puntuacion: 8,
+    puntuacion: 7.5,
     fecha: "2026-07-22"
   }
 ];
