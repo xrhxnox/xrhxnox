@@ -331,5 +331,15 @@ const entries = [
     resena: "Es increíble lo enganchado que me tuvo esto por 10 semanas. Y, en gran medida, se debe a los detestables integrantes del Cuarto Tierra y al papel que jugaron en la temporada: fueron los principales responsables de gran parte de los conflictos de la casa y, con lo alterada que tenían la realidad, no me imagino cómo habría sido el programa sin ellos lol. Televisión basura en su máxima expresión. PD: para mí debió ganar Karime equisde.",
     puntuacion: 9,
     fecha: "2024-09-29"
+  },
+  {
+    id: 35,
+    titulo: "Masters of the Universe (2026)",
+    categoria: "pelicula",
+    imagen: "assets/img/masters-of-the-universe-2026-35.jpg",
+    generos: ["Acción","Aventura","Ciencia ficción","Fantasía"],
+    resena: "La historia está muy sencilla, pero la verdad me la pasé muy bien. Nunca intenta tomarse demasiado en serio y eso le ayuda bastante. La acción y las peleas son lo mejor de la película; siento que están muy bien llevadas. A mitad de la película sí se cae un poco el ritmo, pero al final creo que logra remontar. Si solo quieres apagar el cerebro un rato y entretenerte, cumple de sobra.",
+    puntuacion: 8,
+    fecha: "2026-07-22"
   }
 ];
