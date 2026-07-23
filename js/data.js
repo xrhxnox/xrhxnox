@@ -101,7 +101,7 @@ const entries = [
     imagen: "assets/img/the-drama-9.jpg",
     generos: ["Drama"],
     resena: "Pues el titulo lo dice todo. No sé cómo opinar de ella sin hablar del plot twist, porque ocurre muy temprano en la película y prácticamente toda la trama gira alrededor de él. Solo dire que de verdad vale la pena verla sin saber absolutamente nada.",
-    puntuacion: 8.5,
+    puntuacion: 9,
     fecha: "2026-07-16"
   },
   {
