@@ -12,16 +12,17 @@
   --cat-videojuego: #22d3ee;
   --cat-libro: #34d399;
   --cat-pelicula: #f87171;
-  --cat-serie: #8000ff;
+  --cat-serie: #b300ff;
   --cat-trash-tv: #e879f9;
   --cat-anime: #fb923c;
   --cat-musica: #f472b6;
   --cat-deportes: #d4af37;
-  --cat-escenciales: #fa023c;
+  --cat-escenciales: #fc3535;
 
   --photo-border: #3a3a38;
   --overlay-text: #eeeeec;
   --overlay-text-dim: #8f8f8c;
+  --todos-accent: #ffffff;
 }
 
 :root[data-theme="light"] {
@@ -31,6 +32,7 @@
   --text: #1f1f1e;
   --text-dim: #6b6b68;
   --photo-border: #d8d8d5;
+  --todos-accent: #8f8f8c;
 }
 
 * { box-sizing: border-box; }
@@ -356,6 +358,7 @@ main {
   transition: color 0.15s ease;
 }
 
+.filter-btn[data-filter="todos"]:hover i, .filter-btn[data-filter="todos"].active i { color: var(--todos-accent); }
 .filter-btn[data-filter="anime"]:hover i, .filter-btn[data-filter="anime"].active i { color: var(--cat-anime); }
 .filter-btn[data-filter="escenciales"]:hover i, .filter-btn[data-filter="escenciales"].active i { color: var(--cat-escenciales); }
 .filter-btn[data-filter="deportes"]:hover i, .filter-btn[data-filter="deportes"].active i { color: var(--cat-deportes); }
@@ -376,6 +379,7 @@ main {
   box-shadow: 0 0 0 2px var(--accent);
 }
 
+.filter-btn[data-filter="todos"].active .filter-icon { box-shadow: 0 0 0 2px var(--todos-accent); }
 .filter-btn[data-filter="anime"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-anime); }
 .filter-btn[data-filter="escenciales"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-escenciales); }
 .filter-btn[data-filter="deportes"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-deportes); }
