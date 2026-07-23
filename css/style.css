@@ -857,7 +857,7 @@ main {
 }
 
 .admin-form button {
-  background: var(--accent);
+  background: #ffffff;
   color: #16171b;
   border: none;
   border-radius: 8px;
@@ -970,7 +970,7 @@ main {
 
 .success-banner button {
   align-self: flex-start;
-  background: var(--cat-serie);
+  background: #ffffff;
   color: #16171b;
   border: none;
   border-radius: 8px;
