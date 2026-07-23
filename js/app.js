@@ -101,6 +101,8 @@ function render() {
 
   if (activeSort === "rating") {
     filtered.sort((a, b) => b.puntuacion - a.puntuacion || (b.fecha || "").localeCompare(a.fecha || ""));
+  } else if (activeSort === "rating-asc") {
+    filtered.sort((a, b) => a.puntuacion - b.puntuacion || (b.fecha || "").localeCompare(a.fecha || ""));
   } else {
     filtered.sort((a, b) => (b.fecha || "").localeCompare(a.fecha || ""));
   }
