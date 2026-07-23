@@ -386,6 +386,13 @@ main {
 .filter-btn[data-filter="trash-tv"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-trash-tv); }
 .filter-btn[data-filter="videojuego"].active .filter-icon { box-shadow: 0 0 0 2px var(--cat-videojuego); }
 
+.selects-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 .year-select {
   display: flex;
   align-items: center;
